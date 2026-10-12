@@ -1,0 +1,204 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "timeStatus": "final",
+  "units": [
+    {
+      "id": "unit-01",
+      "sentenceIds": [
+        "s001",
+        "s002"
+      ],
+      "newInformation": "网络脊梁比喻指向实际断裂部件",
+      "visualRole": "由夸张脊柱图形转为制动踏板支架示意"
+    },
+    {
+      "id": "unit-02",
+      "sentenceIds": [
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "newInformation": "三车测试报告及其证据边界",
+      "visualRole": "展示三辆车的重复结果、距离数字和媒体测试标签"
+    },
+    {
+      "id": "unit-03",
+      "sentenceIds": [
+        "s006",
+        "s007"
+      ],
+      "newInformation": "品牌回应提出工况解释并承诺升级",
+      "visualRole": "对照呈现品牌表述和升级动作，不判断争议真伪"
+    },
+    {
+      "id": "unit-04",
+      "sentenceIds": [
+        "s008",
+        "s009"
+      ],
+      "newInformation": "升级时间表已出现但方案细节未定",
+      "visualRole": "时间线停在待确认，突出未知项"
+    },
+    {
+      "id": "unit-05",
+      "sentenceIds": [
+        "s010",
+        "s011"
+      ],
+      "newInformation": "舆论回到公开和可复核证据",
+      "visualRole": "钢筋/粉丝隐喻退场，以待验证项目与公开记录收束"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "unitId": "unit-01",
+      "startState": "一句脊梁骨比喻占满画面",
+      "change": "比喻脊柱变成支架结构简图",
+      "endState": "显示事件实际部件名称",
+      "syncIntent": "在s002说出实际部件时完成视觉落点",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "hook"
+        }
+      },
+      "startFrame": 0,
+      "durationFrames": 422
+    },
+    {
+      "id": "shot-02",
+      "unitId": "unit-02",
+      "startState": "三辆车并列待测",
+      "change": "三条结果线依次出现并显示一组距离对比",
+      "endState": "出现媒体测试与监管鉴定的边界提示",
+      "syncIntent": "数字出现时逐个显现；说到不是鉴定后切换标签",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "test"
+        }
+      },
+      "startFrame": 422,
+      "durationFrames": 751
+    },
+    {
+      "id": "shot-03",
+      "unitId": "unit-03",
+      "startState": "争议标签左右分置",
+      "change": "展示品牌工况解释与免费升级承诺",
+      "endState": "两种主张并列且都标注来源",
+      "syncIntent": "用对照组织信息，不用动画暗示任何一方胜出",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "response"
+        }
+      },
+      "startFrame": 1173,
+      "durationFrames": 443
+    },
+    {
+      "id": "shot-04",
+      "unitId": "unit-04",
+      "startState": "时间线显示10月11日",
+      "change": "方案确认与升级启动进入未来节点",
+      "endState": "细节卡停在尚未公布",
+      "syncIntent": "“预计”与“陆续”以不同于已完成状态的虚线呈现",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "timeline"
+        }
+      },
+      "startFrame": 1616,
+      "durationFrames": 438
+    },
+    {
+      "id": "shot-05",
+      "unitId": "unit-05",
+      "startState": "品牌情绪与安全部件叠在一起",
+      "change": "情绪标语淡出，检测记录逐项亮起",
+      "endState": "可复核记录成为最后画面",
+      "syncIntent": "让最后一句落在证据标准上，并保留结尾留白",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "close"
+        }
+      },
+      "startFrame": 2054,
+      "durationFrames": 412
+    }
+  ],
+  "audioPlacements": [
+    {
+      "audioId": "s001",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.224014,
+      "timelineStartFrame": 0
+    },
+    {
+      "audioId": "s002",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.048005,
+      "timelineStartFrame": 229
+    },
+    {
+      "audioId": "s003",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 8.016009,
+      "timelineStartFrame": 422
+    },
+    {
+      "audioId": "s004",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 10.248005,
+      "timelineStartFrame": 670
+    },
+    {
+      "audioId": "s005",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 5.856009,
+      "timelineStartFrame": 986
+    },
+    {
+      "audioId": "s006",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.264014,
+      "timelineStartFrame": 1173
+    },
+    {
+      "audioId": "s007",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.872018,
+      "timelineStartFrame": 1369
+    },
+    {
+      "audioId": "s008",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.248005,
+      "timelineStartFrame": 1616
+    },
+    {
+      "audioId": "s009",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.672018,
+      "timelineStartFrame": 1842
+    },
+    {
+      "audioId": "s010",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.432018,
+      "timelineStartFrame": 2054
+    },
+    {
+      "audioId": "s011",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.24,
+      "timelineStartFrame": 2258
+    }
+  ]
+}

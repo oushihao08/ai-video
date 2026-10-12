@@ -1,0 +1,37 @@
+{
+  "type": "independent_review",
+  "status": "passed",
+  "reviewer": "/root/onion_content_review",
+  "reviewScope": "只审核当前完整口播稿的故事推进、事实与来源边界；不评配音、动画、声画同步或用户接受。",
+  "basis": {
+    "scriptSha256": "285d494598cd7482864c2276cfd6fd6a898d632c143628cb76de08ff39f904ba",
+    "rulesSha256": "58408b805fbe6fa23136c84e5a8fa2804c7977ecb8e755fd82908ad7f416cb07",
+    "requirementsSha256": "55d80145bbf62b004e1f9932a9807cfc0a8644fc3a09b632cec37641270b82bc",
+    "contentPrinciples": [
+      {
+        "path": "skills/story-plan/references/content-principles.md",
+        "sha256": "ffd469e52564140730db79215a73c06c4565eba8d2ffd2bfeb8c81fde3cf481e"
+      }
+    ],
+    "sources": [
+      {
+        "path": "research/materials.md",
+        "sha256": "1b435ffbe0823bbe4e6eeda815710782993a8f775c21ab1461f4bc93a6121257"
+      }
+    ]
+  },
+  "workJudgment": {
+    "attention": "观众跟着刀切洋葱的动作，理解为什么眼睛会发酸。",
+    "progression": "刀压入并使组织变形，切开后先喷细雾再甩液滴，继而解释含硫刺激物与实验变量，最后回到日常切菜动作。",
+    "payoff": "“刀磨锋利点，手别急”把实验中的刀刃和速度变量转成简短生活建议。",
+    "assessment": "叙事按可见动作与因果关系向前推进，四句各自带来新信息；可以进入配音和动画样片制作，声画表现仍须单独判断。"
+  },
+  "factJudgment": "PNAS 2025研究支持切割时先发生高速喷雾、随后形成较慢液滴，以及实验条件下更快切割或较钝刀刃增加喷滴。研究没有直接量化液滴中的含硫刺激物；气溶胶携带刺激物的解释依据为Cornell研究说明与既有洋葱硫化学研究。稿件没有把可见水滴等同于催泪物，也没有把实验速度外推为家庭标准。",
+  "issues": [],
+  "unresolved": [],
+  "limitations": [
+    "审阅范围限于稿件、要求和列明材料，不代表亲自复核论文图像或实验视频。",
+    "不据文本审核推断TTS读法、动画效果或声画同步已经通过。"
+  ],
+  "downstream": "可进入短配音与动画预演；动画用色/粒子须继续标明是原理示意，声画效果留待实际媒体检查。"
+}

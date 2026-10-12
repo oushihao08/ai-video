@@ -1,0 +1,664 @@
+{
+  "version": 1,
+  "status": "complete",
+  "sourceTimeUnit": "seconds",
+  "scriptSha256": "f393e4830cf546fcaff11d6c5184c8907f34720f4cec5b3dfcd038f78d3859d1",
+  "deliverySha256": "c7032d41c937d57fa8efcd65fefdfa47e2177456055f91533f0d235707bc5f58",
+  "voiceInputSha256": "a454f5380daeb495b0d7b03f926bd547672e4f78690d5962ded71ac308374387",
+  "voice": {
+    "engine": "volc",
+    "speaker": "zh_male_yuanboxiaoshu_uranus_bigtts",
+    "speed": 0,
+    "resource": "seed-tts-2.0"
+  },
+  "audio": [
+    {
+      "audioId": "s001",
+      "sourceFile": "audio/s001-2f5ca5ca1cc600813484d2c22caea809d373820d33136a08c1e6d2bdb4be6b39.wav",
+      "audioSha256": "6b4bf137982489f0c486eddbe952dbef71878eae25fbd66ec4fcfae513ce26be",
+      "durationSeconds": 8.256009,
+      "inputSha256": "2f5ca5ca1cc600813484d2c22caea809d373820d33136a08c1e6d2bdb4be6b39",
+      "source": "volc-tts"
+    },
+    {
+      "audioId": "s002",
+      "sourceFile": "audio/s002-912444d9daaf07d7260f5c56565cfe601bca91b6d142da3f51f5a7bf3ef3838a.wav",
+      "audioSha256": "3b8f991029a6ccd653195fa1eba230970bf0fc0e3e4d8122cdf00f1cd2a8d44b",
+      "durationSeconds": 14.664014,
+      "inputSha256": "912444d9daaf07d7260f5c56565cfe601bca91b6d142da3f51f5a7bf3ef3838a",
+      "source": "volc-tts"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s001",
+      "segmentId": "seg-01",
+      "audioId": "s001",
+      "startSeconds": 0,
+      "endSeconds": 8.256009,
+      "precision": "word",
+      "words": [
+        {
+          "text": "“",
+          "startSeconds": 0,
+          "endSeconds": 0.045,
+          "confidence": 0.48145366
+        },
+        {
+          "text": "华",
+          "startSeconds": 0.185,
+          "endSeconds": 0.495,
+          "confidence": 0.94023633
+        },
+        {
+          "text": "为",
+          "startSeconds": 0.495,
+          "endSeconds": 0.615,
+          "confidence": 0.9185981
+        },
+        {
+          "text": "的",
+          "startSeconds": 0.615,
+          "endSeconds": 0.725,
+          "confidence": 0.95766586
+        },
+        {
+          "text": "脊",
+          "startSeconds": 0.725,
+          "endSeconds": 0.905,
+          "confidence": 0.9189219
+        },
+        {
+          "text": "梁",
+          "startSeconds": 0.905,
+          "endSeconds": 1.045,
+          "confidence": 0.86999434
+        },
+        {
+          "text": "骨",
+          "startSeconds": 1.045,
+          "endSeconds": 1.215,
+          "confidence": 0.9271105
+        },
+        {
+          "text": "被",
+          "startSeconds": 1.215,
+          "endSeconds": 1.325,
+          "confidence": 0.8041246
+        },
+        {
+          "text": "踩",
+          "startSeconds": 1.325,
+          "endSeconds": 1.525,
+          "confidence": 0.8106693
+        },
+        {
+          "text": "断",
+          "startSeconds": 1.525,
+          "endSeconds": 1.765,
+          "confidence": 0.8193142
+        },
+        {
+          "text": "了。”",
+          "startSeconds": 1.765,
+          "endSeconds": 1.855,
+          "confidence": 0.45244345
+        },
+        {
+          "text": "这",
+          "startSeconds": 2.2800417,
+          "endSeconds": 2.3650417,
+          "confidence": 0.767823
+        },
+        {
+          "text": "话",
+          "startSeconds": 2.3650417,
+          "endSeconds": 2.5050416,
+          "confidence": 0.9186851
+        },
+        {
+          "text": "挺",
+          "startSeconds": 2.5050416,
+          "endSeconds": 2.6750417,
+          "confidence": 0.85184574
+        },
+        {
+          "text": "狠，",
+          "startSeconds": 2.6750417,
+          "endSeconds": 2.9450417,
+          "confidence": 0.89847815
+        },
+        {
+          "text": "实",
+          "startSeconds": 3.4950418,
+          "endSeconds": 3.7650418,
+          "confidence": 0.943717
+        },
+        {
+          "text": "际",
+          "startSeconds": 3.7650418,
+          "endSeconds": 3.8950417,
+          "confidence": 0.9484627
+        },
+        {
+          "text": "断",
+          "startSeconds": 3.8950417,
+          "endSeconds": 4.0950418,
+          "confidence": 0.93061566
+        },
+        {
+          "text": "的",
+          "startSeconds": 4.0950418,
+          "endSeconds": 4.1950417,
+          "confidence": 0.9478708
+        },
+        {
+          "text": "是",
+          "startSeconds": 4.1950417,
+          "endSeconds": 4.3650417,
+          "confidence": 0.9542583
+        },
+        {
+          "text": "三",
+          "startSeconds": 4.3650417,
+          "endSeconds": 4.6350417,
+          "confidence": 0.97232
+        },
+        {
+          "text": "辆",
+          "startSeconds": 4.6350417,
+          "endSeconds": 4.825042,
+          "confidence": 0.93495864
+        },
+        {
+          "text": "尊",
+          "startSeconds": 4.825042,
+          "endSeconds": 5.075042,
+          "confidence": 0.857939
+        },
+        {
+          "text": "界",
+          "startSeconds": 5.075042,
+          "endSeconds": 5.245042,
+          "confidence": 0.8237842
+        },
+        {
+          "text": "V800",
+          "startSeconds": 5.6950417,
+          "endSeconds": 5.7350416,
+          "confidence": 0.21857399
+        },
+        {
+          "text": "测",
+          "startSeconds": 5.7350416,
+          "endSeconds": 5.995042,
+          "confidence": 0.8567273
+        },
+        {
+          "text": "试",
+          "startSeconds": 5.995042,
+          "endSeconds": 6.1050415,
+          "confidence": 0.92044336
+        },
+        {
+          "text": "车",
+          "startSeconds": 6.1050415,
+          "endSeconds": 6.3450418,
+          "confidence": 0.8727675
+        },
+        {
+          "text": "的",
+          "startSeconds": 6.3450418,
+          "endSeconds": 6.5250416,
+          "confidence": 0.88303137
+        },
+        {
+          "text": "制",
+          "startSeconds": 6.5250416,
+          "endSeconds": 6.7150416,
+          "confidence": 0.91931057
+        },
+        {
+          "text": "动",
+          "startSeconds": 6.7150416,
+          "endSeconds": 6.8550415,
+          "confidence": 0.9470645
+        },
+        {
+          "text": "踏",
+          "startSeconds": 6.8550415,
+          "endSeconds": 7.0650415,
+          "confidence": 0.94554466
+        },
+        {
+          "text": "板",
+          "startSeconds": 7.0650415,
+          "endSeconds": 7.225042,
+          "confidence": 0.9070137
+        },
+        {
+          "text": "支",
+          "startSeconds": 7.225042,
+          "endSeconds": 7.3850417,
+          "confidence": 0.9335566
+        },
+        {
+          "text": "架",
+          "startSeconds": 7.3850417,
+          "endSeconds": 7.535042,
+          "confidence": 0.91682786
+        },
+        {
+          "text": "底",
+          "startSeconds": 7.535042,
+          "endSeconds": 7.685042,
+          "confidence": 0.9251014
+        },
+        {
+          "text": "座。",
+          "startSeconds": 7.685042,
+          "endSeconds": 7.9650416,
+          "confidence": 0.9469416
+        }
+      ]
+    },
+    {
+      "id": "s002",
+      "segmentId": "seg-02",
+      "audioId": "s002",
+      "startSeconds": 0,
+      "endSeconds": 14.664014,
+      "precision": "word",
+      "words": [
+        {
+          "text": "尊",
+          "startSeconds": 0.305,
+          "endSeconds": 0.455,
+          "confidence": 0.7955181
+        },
+        {
+          "text": "界",
+          "startSeconds": 0.455,
+          "endSeconds": 0.655,
+          "confidence": 0.891799
+        },
+        {
+          "text": "称",
+          "startSeconds": 0.655,
+          "endSeconds": 0.935,
+          "confidence": 0.8662828
+        },
+        {
+          "text": "测",
+          "startSeconds": 0.935,
+          "endSeconds": 1.155,
+          "confidence": 0.9374258
+        },
+        {
+          "text": "试",
+          "startSeconds": 1.155,
+          "endSeconds": 1.315,
+          "confidence": 0.95895827
+        },
+        {
+          "text": "属",
+          "startSeconds": 1.315,
+          "endSeconds": 1.565,
+          "confidence": 0.78731066
+        },
+        {
+          "text": "于“",
+          "startSeconds": 1.565,
+          "endSeconds": 1.595,
+          "confidence": 0.12386719
+        },
+        {
+          "text": "非",
+          "startSeconds": 1.705,
+          "endSeconds": 1.985,
+          "confidence": 0.81976676
+        },
+        {
+          "text": "标",
+          "startSeconds": 1.985,
+          "endSeconds": 2.205,
+          "confidence": 0.9495053
+        },
+        {
+          "text": "准",
+          "startSeconds": 2.205,
+          "endSeconds": 2.415,
+          "confidence": 0.9699242
+        },
+        {
+          "text": "的",
+          "startSeconds": 2.415,
+          "endSeconds": 2.525,
+          "confidence": 0.9457473
+        },
+        {
+          "text": "极",
+          "startSeconds": 2.525,
+          "endSeconds": 2.765,
+          "confidence": 0.91400707
+        },
+        {
+          "text": "端",
+          "startSeconds": 2.765,
+          "endSeconds": 2.945,
+          "confidence": 0.8614591
+        },
+        {
+          "text": "测",
+          "startSeconds": 2.945,
+          "endSeconds": 3.155,
+          "confidence": 0.92867804
+        },
+        {
+          "text": "试",
+          "startSeconds": 3.155,
+          "endSeconds": 3.265,
+          "confidence": 0.8942177
+        },
+        {
+          "text": "工",
+          "startSeconds": 3.265,
+          "endSeconds": 3.425,
+          "confidence": 0.87723535
+        },
+        {
+          "text": "况”，",
+          "startSeconds": 3.425,
+          "endSeconds": 3.455,
+          "confidence": 0.21900456
+        },
+        {
+          "text": "也",
+          "startSeconds": 4.140042,
+          "endSeconds": 4.225042,
+          "confidence": 0.9076026
+        },
+        {
+          "text": "承",
+          "startSeconds": 4.225042,
+          "endSeconds": 4.4250417,
+          "confidence": 0.9540417
+        },
+        {
+          "text": "诺",
+          "startSeconds": 4.4250417,
+          "endSeconds": 4.585042,
+          "confidence": 0.9014236
+        },
+        {
+          "text": "优",
+          "startSeconds": 4.6350417,
+          "endSeconds": 4.7750416,
+          "confidence": 0.9033154
+        },
+        {
+          "text": "化",
+          "startSeconds": 4.7750416,
+          "endSeconds": 4.9650416,
+          "confidence": 0.87424594
+        },
+        {
+          "text": "部",
+          "startSeconds": 4.9650416,
+          "endSeconds": 5.0950418,
+          "confidence": 0.8063613
+        },
+        {
+          "text": "件、",
+          "startSeconds": 5.0950418,
+          "endSeconds": 5.125042,
+          "confidence": 0.14239518
+        },
+        {
+          "text": "为",
+          "startSeconds": 5.725042,
+          "endSeconds": 5.965042,
+          "confidence": 0.8941337
+        },
+        {
+          "text": "已",
+          "startSeconds": 5.965042,
+          "endSeconds": 6.0950418,
+          "confidence": 0.739836
+        },
+        {
+          "text": "交",
+          "startSeconds": 6.0950418,
+          "endSeconds": 6.2750416,
+          "confidence": 0.94798046
+        },
+        {
+          "text": "付",
+          "startSeconds": 6.2750416,
+          "endSeconds": 6.4450417,
+          "confidence": 0.9343881
+        },
+        {
+          "text": "用",
+          "startSeconds": 6.4450417,
+          "endSeconds": 6.545042,
+          "confidence": 0.80855477
+        },
+        {
+          "text": "户",
+          "startSeconds": 6.545042,
+          "endSeconds": 6.755042,
+          "confidence": 0.9387659
+        },
+        {
+          "text": "免",
+          "startSeconds": 6.755042,
+          "endSeconds": 6.915042,
+          "confidence": 0.88945925
+        },
+        {
+          "text": "费",
+          "startSeconds": 6.915042,
+          "endSeconds": 7.035042,
+          "confidence": 0.9604611
+        },
+        {
+          "text": "升",
+          "startSeconds": 7.035042,
+          "endSeconds": 7.245042,
+          "confidence": 0.97550553
+        },
+        {
+          "text": "级。",
+          "startSeconds": 7.245042,
+          "endSeconds": 7.585042,
+          "confidence": 0.88456535
+        },
+        {
+          "text": "想",
+          "startSeconds": 8.000084,
+          "endSeconds": 8.255084,
+          "confidence": 0.8627165
+        },
+        {
+          "text": "象",
+          "startSeconds": 8.255084,
+          "endSeconds": 8.455084,
+          "confidence": 0.96965945
+        },
+        {
+          "text": "一",
+          "startSeconds": 8.455084,
+          "endSeconds": 8.525084,
+          "confidence": 0.89322376
+        },
+        {
+          "text": "张",
+          "startSeconds": 8.525084,
+          "endSeconds": 8.695084,
+          "confidence": 0.94849473
+        },
+        {
+          "text": "维",
+          "startSeconds": 8.695084,
+          "endSeconds": 8.8150835,
+          "confidence": 0.9205786
+        },
+        {
+          "text": "修",
+          "startSeconds": 8.8150835,
+          "endSeconds": 9.005084,
+          "confidence": 0.87748986
+        },
+        {
+          "text": "单：",
+          "startSeconds": 9.005084,
+          "endSeconds": 9.035084,
+          "confidence": 0.20206611
+        },
+        {
+          "text": "故",
+          "startSeconds": 9.575084,
+          "endSeconds": 9.745084,
+          "confidence": 0.95805675
+        },
+        {
+          "text": "障",
+          "startSeconds": 9.745084,
+          "endSeconds": 9.905084,
+          "confidence": 0.87197083
+        },
+        {
+          "text": "栏",
+          "startSeconds": 9.905084,
+          "endSeconds": 10.075084,
+          "confidence": 0.7618689
+        },
+        {
+          "text": "已",
+          "startSeconds": 10.075084,
+          "endSeconds": 10.185083,
+          "confidence": 0.91344476
+        },
+        {
+          "text": "经",
+          "startSeconds": 10.185083,
+          "endSeconds": 10.345084,
+          "confidence": 0.95566547
+        },
+        {
+          "text": "填",
+          "startSeconds": 10.345084,
+          "endSeconds": 10.585084,
+          "confidence": 0.94159454
+        },
+        {
+          "text": "上，",
+          "startSeconds": 10.585084,
+          "endSeconds": 10.825084,
+          "confidence": 0.97628546
+        },
+        {
+          "text": "换",
+          "startSeconds": 11.035084,
+          "endSeconds": 11.275084,
+          "confidence": 0.9586176
+        },
+        {
+          "text": "件",
+          "startSeconds": 11.275084,
+          "endSeconds": 11.425084,
+          "confidence": 0.9382139
+        },
+        {
+          "text": "方",
+          "startSeconds": 11.425084,
+          "endSeconds": 11.625084,
+          "confidence": 0.95027333
+        },
+        {
+          "text": "案",
+          "startSeconds": 11.625084,
+          "endSeconds": 11.725084,
+          "confidence": 0.7914309
+        },
+        {
+          "text": "还",
+          "startSeconds": 11.725084,
+          "endSeconds": 11.865084,
+          "confidence": 0.9393927
+        },
+        {
+          "text": "空",
+          "startSeconds": 11.865084,
+          "endSeconds": 12.125084,
+          "confidence": 0.9662319
+        },
+        {
+          "text": "着；",
+          "startSeconds": 12.125084,
+          "endSeconds": 12.315084,
+          "confidence": 0.91451585
+        },
+        {
+          "text": "客",
+          "startSeconds": 12.640125,
+          "endSeconds": 12.715125,
+          "confidence": 0.58192223
+        },
+        {
+          "text": "服",
+          "startSeconds": 12.715125,
+          "endSeconds": 12.835125,
+          "confidence": 0.79016346
+        },
+        {
+          "text": "说，",
+          "startSeconds": 12.835125,
+          "endSeconds": 13.175125,
+          "confidence": 0.9437797
+        },
+        {
+          "text": "预",
+          "startSeconds": 13.375125,
+          "endSeconds": 13.495125,
+          "confidence": 0.94574463
+        },
+        {
+          "text": "计",
+          "startSeconds": 13.495125,
+          "endSeconds": 13.645125,
+          "confidence": 0.7835932
+        },
+        {
+          "text": "月",
+          "startSeconds": 13.645125,
+          "endSeconds": 13.675125,
+          "confidence": 0.27630597
+        },
+        {
+          "text": "底",
+          "startSeconds": 13.675125,
+          "endSeconds": 13.735126,
+          "confidence": 0.25591072
+        },
+        {
+          "text": "确",
+          "startSeconds": 13.735126,
+          "endSeconds": 13.895125,
+          "confidence": 0.44360122
+        },
+        {
+          "text": "认。",
+          "startSeconds": 13.895125,
+          "endSeconds": 13.955126,
+          "confidence": 0.24243937
+        }
+      ]
+    }
+  ],
+  "precision": "word",
+  "listening": {
+    "status": "not-checked"
+  }
+}

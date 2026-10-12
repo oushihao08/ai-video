@@ -1,0 +1,62 @@
+{
+  "01-cinema-satire": {
+    "A": {
+      "version": "baseline",
+      "sha256": "df43a959d6175604afc5df2593642b4265997be38e669e6ff936a6e2497e78cb"
+    },
+    "B": {
+      "version": "new",
+      "sha256": "756564791ae32dc83de930bd6ef1ad324f596bb7a9852acaf03b5c6174b93256"
+    }
+  },
+  "02-cinema-plain": {
+    "A": {
+      "version": "new",
+      "sha256": "a639acc011fe8db9d16aa514128aa56e3f391f81d503358688ee5e327747c2ec"
+    },
+    "B": {
+      "version": "baseline",
+      "sha256": "05430139078678b2679ab75879825917be80244d0d5bf5bc6bbf24b732fab493"
+    }
+  },
+  "03-hongmen-history": {
+    "A": {
+      "version": "new",
+      "sha256": "d5d2ba161a06dab4962090399ecf28596de9145950e925e39e9f599042b92373"
+    },
+    "B": {
+      "version": "baseline",
+      "sha256": "4ca69b1caeb95a44f3688c0cc497fa2025c3bfd96de2a3b27f6a7fe148d04695"
+    }
+  },
+  "04-song-restaurant": {
+    "A": {
+      "version": "baseline",
+      "sha256": "a88fe19c7391430c67524168a71cd1f06d6a442785cf6d8840ed25176846d538"
+    },
+    "B": {
+      "version": "new",
+      "sha256": "77fc5ee3aa20c82d2bd9f3e1c59c41ad3104df247789e53f488856cc1c75fa6b"
+    }
+  },
+  "05-hongmen-satire": {
+    "A": {
+      "version": "new",
+      "sha256": "2bf7254199c912ba12368af80ac166a3d41cfc5743bea731386f12bb449f5dc9"
+    },
+    "B": {
+      "version": "baseline",
+      "sha256": "11c4bf664d91bf9bd58499d40b6cba11a9acc41e42b2ffb9973f70296eecb86b"
+    }
+  },
+  "06-queue-mechanism": {
+    "A": {
+      "version": "new",
+      "sha256": "77f021728fcdcf93ba2000d26b0d1f40b23597aa99352829a07245e42126d17b"
+    },
+    "B": {
+      "version": "baseline",
+      "sha256": "61f7ab34af0412a5eeb9900a486d5e5254021beedab17d868ccd272096730433"
+    }
+  }
+}

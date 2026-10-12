@@ -1,0 +1,16 @@
+{
+  "exampleOnly": true,
+  "timeStatus": "estimated",
+  "fps": 30,
+  "units": [
+    { "id": "unit-01", "sentenceIds": ["s001", "s002"], "newInformation": "渡口关闭后改道", "visualRole": "展示封闭与上游改道" }
+  ],
+  "shots": [
+    { "id": "shot-01", "unitId": "unit-01", "startState": "队伍抵达河边", "change": "发现渡口封闭", "endState": "地图显示上游路线", "estimatedSeconds": 9 }
+  ],
+  "simulatedAudioPlacements": [
+    { "audioId": "s001", "sourceInSeconds": 0, "sourceOutSeconds": 4, "timelineStartFrame": 0 },
+    { "audioId": "s002", "sourceInSeconds": 0, "sourceOutSeconds": 4, "timelineStartFrame": 120 }
+  ],
+  "simulatedTailHoldFrames": 30
+}

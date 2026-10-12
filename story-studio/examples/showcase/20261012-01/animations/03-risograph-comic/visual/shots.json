@@ -1,0 +1,31 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "timeStatus": "measured",
+  "units": [
+    {
+      "id": "u03",
+      "sentenceIds": ["s003"],
+      "newInformation": "店内欢迎语撞上刚做完清理的顾客，他顺势把自己当成明天的员工",
+      "visualRole": "保留同一店面与人物动作，让水滴、回头和回应形成连续表演，回应说完后才出现假想排班表"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-03",
+      "unitId": "u03",
+      "intent": "从刚洗完滤网走到出口，接住店内欢迎语并回顶",
+      "startState": "小林站在出口附近，手上还滴着水",
+      "change": "喇叭欢迎后小林转身甩手，接着顺口问明天排班",
+      "endState": "回应结束后停在湿手与假想排班表",
+      "syncIntent": "门店装饰可以常驻；排班表只能在“明天排我什么班”完整说完后出现",
+      "scene": {"type": "custom", "data": {"key": "TeaShop", "stage": 3}},
+      "startFrame": 0,
+      "durationFrames": 270
+    }
+  ],
+  "audioPlacements": [
+    {"audioId": "s003", "sourceInSeconds": 0, "sourceOutSeconds": 7.464014, "timelineStartFrame": 12}
+  ]
+}

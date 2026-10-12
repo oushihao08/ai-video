@@ -1,0 +1,54 @@
+{
+  "inspectedAt": "2026-10-12T11:45:55.508Z",
+  "scope": "只读审核依据与文件状态；不代表好笑、表演或新版成片通过",
+  "cases": [
+    {
+      "case": "01-cinema-satire",
+      "episode": "/Users/jack/Documents/codes/lvgou/ai-video/story-studio/examples/content-revision-20261012/reboot/cases/01-cinema-satire",
+      "episodeRecord": "present",
+      "script": {
+        "status": "parsed",
+        "contentSha256": "539a74acb31c2ec9899a7c836422252232d13f2c3869c22dfe4dce2f9e83822f",
+        "deliverySha256": "efceeee13c0c4f904746e1c01906df8edc18975718d04423fcfd65ee27935326",
+        "sentences": 3
+      },
+      "review": {
+        "status": "current-independent-record"
+      },
+      "audio": {
+        "status": "missing"
+      },
+      "visual": {
+        "status": "missing"
+      },
+      "output": {
+        "mp4": "missing",
+        "playback": "unverified"
+      }
+    },
+    {
+      "case": "04-song-restaurant",
+      "episode": "/Users/jack/Documents/codes/lvgou/ai-video/story-studio/examples/content-revision-20261012/reboot/cases/04-song-restaurant",
+      "episodeRecord": "present",
+      "script": {
+        "status": "parsed",
+        "contentSha256": "33b0f4fa1c8da8de5996f04f3474a7079e7618f2a219c6061b4d50f87094eb93",
+        "deliverySha256": "054443902398360124e43303888953076f30f28a237422dafbf5627a728a202e",
+        "sentences": 5
+      },
+      "review": {
+        "status": "current-independent-record"
+      },
+      "audio": {
+        "status": "missing"
+      },
+      "visual": {
+        "status": "missing"
+      },
+      "output": {
+        "mp4": "missing",
+        "playback": "unverified"
+      }
+    }
+  ]
+}

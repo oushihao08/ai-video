@@ -1,0 +1,61 @@
+{
+  "type": "independent_review",
+  "status": "passed",
+  "reviewedAt": "2026-10-12",
+  "reviewer": "独立审核子代理；与作者隔离，先完成匿名正文判断，后读取现行规则与修订稿",
+  "scope": "最终正文、要求、实际固定材料、来源关联与骨架；不含声音或视频审核。",
+  "basis": {
+    "scriptSha256": "59a8e98e03ccedf4176eaf51de77217c9848788d9cdbfce3949cc657b29c0ff2",
+    "rulesSha256": "46869b9a72f844fe5fc00b67d95b8f761dc64c6b72ef57b8fe464ce0153b6636",
+    "requirementsSha256": "914eee7c0254a08c5e1787cae368f1fb0b79bf3f2e8f2a6a5488eadd3be0a62d",
+    "contentPrinciples": [
+      {
+        "path": "references/handoff.md",
+        "sha256": "eac2b2126ee0cbf533a42a5b4d4cea747426f5a3cd9d4e6c2245070f26303278"
+      },
+      {
+        "path": "skills/story-history/SKILL.md",
+        "sha256": "06d91adc896d62af25a7f5fead9469108a0b18e9dbe0d15c73b57882f2d09150"
+      },
+      {
+        "path": "skills/story-plan/SKILL.md",
+        "sha256": "f0390d45472dc74cda769a02a73c51b8b0884e844575134119ddb22f7d6753b5"
+      },
+      {
+        "path": "skills/story-plan/references/content-principles.md",
+        "sha256": "d45f38284d93c28a4a461f2345dae7c4b56b034d934bb7aac766a8d147cdac97"
+      },
+      {
+        "path": "skills/story-satire/SKILL.md",
+        "sha256": "8c79d5e8c31cdd94b293fe1d9fd9eeef630d0f8a3e25a169d3544220c6a86adb"
+      },
+      {
+        "path": "skills/story-write/SKILL.md",
+        "sha256": "094d917dc4b22f664aa2f6c3de09e44a9043d911634d069d4e65cf05bd21369f"
+      }
+    ],
+    "outlineSha256": "9d7801384d04647a01d2b6544f745ac9cd435c095bff9bed88aee40208ebd92b",
+    "sources": [
+      {
+        "path": "research/materials.md",
+        "sha256": "bb8538444fa9c76675b31ccd7e56c9ce3af54d78566b9d17ca0ba7c72f515291"
+      },
+      {
+        "path": "research/sources.md",
+        "sha256": "1287bd2c00ca0b88750e736ea41eed0b831584d1b440927267e8fd5b9026a689"
+      }
+    ]
+  },
+  "unresolved": [],
+  "issues": [],
+  "reviewNotes": [
+    "s002–s004 保持范增示意、项羽不应、范增安排项庄的行动归属；s007–s009 补出项伯旧交与善待约定，遮护作用有来源。",
+    "s010 的杀人与挡人对照、s013–s014 的方向错位与目的未成实际承担嘲讽；没有把评论换成劝听者理性，也没有心理或后世必然性增写。",
+    "专项分工与正文相符：嘲讽组织评论，历史方法约束人物、关系与行动。"
+  ],
+  "limitations": [
+    "只核对给定固定材料，没有重新访问史料网页或补充考证。",
+    "估时不是配音实测，表达标注与同步设计不是实际表演或连续播放。",
+    "无用户内容认可、真实声音听查或最终媒体验收结论。"
+  ]
+}

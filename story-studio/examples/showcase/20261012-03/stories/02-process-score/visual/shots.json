@@ -1,0 +1,120 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "timeStatus": "measured",
+  "units": [
+    {
+      "id": "u01",
+      "sentenceIds": [
+        "s001"
+      ],
+      "newInformation": "一块印刷时，另一块已布字；前一块刚毕，后一块已具。",
+      "visualRole": "炭笔跟拍：两板交接的镜头关系"
+    },
+    {
+      "id": "u02",
+      "sentenceIds": [
+        "s002"
+      ],
+      "newInformation": "胶泥刻成的字印烧硬后排入铁框。",
+      "visualRole": "炭笔跟拍：一块字印从手势轨迹移入铁框"
+    },
+    {
+      "id": "u03",
+      "sentenceIds": [
+        "s003"
+      ],
+      "newInformation": "少量印刷不一定省事；印量大时，原文评价极快。",
+      "visualRole": "炭笔跟拍：纸页数量逐渐增加"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "unitId": "u01",
+      "intent": "用镜头和一笔动作线把板间交接连起来",
+      "startState": "粗线条同时勾出压印区与第二块排字铁框",
+      "change": "一笔从完成印刷的一侧牵到已排好字的一侧，镜头沿斜线靠近",
+      "endState": "两块板仍同框，线条停在交接关系上",
+      "syncIntent": "按 s001 的“刚印完”“另一块”“已经排好字”真实词时推动镜头与动作线完成交接。",
+      "sourceRef": "research/materials.md",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "GestureInk",
+          "stage": 1,
+          "keyframeFile": "gesture-drawing-keyframe.png",
+          "keyframeSha256": "54df3dafd244bec6739026f84af330fa74a362421cfbf2a50aee15218361e069",
+          "visualMode": "demonstration"
+        }
+      },
+      "startFrame": 0,
+      "durationFrames": 103
+    },
+    {
+      "id": "shot-02",
+      "unitId": "u02",
+      "intent": "把逐字排版表现成手势而非工艺信息卡",
+      "startState": "手指与散开的字块处于近景",
+      "change": "一块字印沿炭笔轨迹从手边移入铁框，线条保留余势",
+      "endState": "字块收进铁框，动作线不变成说明标签",
+      "syncIntent": "按 s002 的“每个字”“胶泥”“烧硬”“铁框”真实词时推进字印轨迹，并在铁框处落位。",
+      "sourceRef": "research/materials.md",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "GestureInk",
+          "stage": 2,
+          "keyframeFile": "gesture-drawing-keyframe.png",
+          "keyframeSha256": "54df3dafd244bec6739026f84af330fa74a362421cfbf2a50aee15218361e069",
+          "visualMode": "demonstration"
+        }
+      },
+      "startFrame": 103,
+      "durationFrames": 264
+    },
+    {
+      "id": "shot-03",
+      "unitId": "u03",
+      "intent": "用连贯墨迹的扩展表达数量增加，并给句尾留出静场",
+      "startState": "纸面保持大块留白",
+      "change": "“印得多”后朱红笔触沿着纸张运动方向扩展，黑线接住纸页",
+      "endState": "最后一笔收住并留空，让原文判断落在动作之后",
+      "syncIntent": "按 s003 的“印得多”真实词时启动纸张/墨迹扩展；口播结束后留静场。",
+      "sourceRef": "research/materials.md",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "GestureInk",
+          "stage": 3,
+          "keyframeFile": "gesture-drawing-keyframe.png",
+          "keyframeSha256": "54df3dafd244bec6739026f84af330fa74a362421cfbf2a50aee15218361e069",
+          "visualMode": "demonstration"
+        }
+      },
+      "startFrame": 367,
+      "durationFrames": 181
+    }
+  ],
+  "audioPlacements": [
+    {
+      "audioId": "s001",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 3.24,
+      "timelineStartFrame": 0
+    },
+    {
+      "audioId": "s002",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 8.64,
+      "timelineStartFrame": 103
+    },
+    {
+      "audioId": "s003",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 5.232018,
+      "timelineStartFrame": 367
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "type": "independent_review",
+  "status": "passed",
+  "reviewer": "/root/review_v800_scripts",
+  "reviewScope": "独立复核当前精确口播稿及材料中的《梦溪笔谈》卷十八转录；只评文字、故事推进与所列转录，不评配音、动画或用户接受。",
+  "basis": {
+    "scriptSha256": "7f594cca74339f97f11be4b206bf60c1e25f808e2c4f7160d720c3868f375ee1",
+    "rulesSha256": "58408b805fbe6fa23136c84e5a8fa2804c7977ecb8e755fd82908ad7f416cb07",
+    "requirementsSha256": "98b5b1754e7ff8cbaee8ac9b566be8f953e861ea87310591bb407398b541a9eb",
+    "contentPrinciples": [
+      {
+        "path": "skills/story-plan/references/content-principles.md",
+        "sha256": "ffd469e52564140730db79215a73c06c4565eba8d2ffd2bfeb8c81fde3cf481e"
+      }
+    ],
+    "sources": [
+      {
+        "path": "research/materials.md",
+        "sha256": "1aec9152d136f6575d3a1503093260cfdbf856ff8460301eee7e6dabdac1b9e1"
+      }
+    ]
+  },
+  "workJudgment": {
+    "attention": "听众关注两块板怎样接力，以及印量为何影响效率。",
+    "progression": "开头给出交接动作，随后补沈括所记泥字工艺，最后落到少量与大量印刷的差别。",
+    "payoff": "“极为神速”回应前文的效率条件，结尾有着落。",
+    "assessment": "推进清楚，双板信息没有重复；适合进入短配音预演。"
+  },
+  "factJudgment": "胶泥刻字、烧硬、用铁范排字、两块铁板交替工作，以及少量与大量印刷的效率差均见于《梦溪笔谈》卷十八《技艺》转录。稿件没有补写沈括亲见、毕昇动机或具体速度。",
+  "issues": [],
+  "unresolved": [],
+  "limitations": [
+    "材料未核对所列扫描本的具体页影；此次独立复核使用材料标明的《梦溪笔谈》转录。",
+    "只审文字与所列转录，不能据此判断声音表演、动画表现或用户是否喜欢。"
+  ],
+  "downstream": "可以进入短配音预演和动画粗预演；音频与画面需分别核查。"
+}

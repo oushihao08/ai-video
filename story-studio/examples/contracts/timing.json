@@ -1,0 +1,14 @@
+{
+  "exampleOnly": true,
+  "status": "simulated-not-measured",
+  "sourceTimeUnit": "seconds",
+  "precision": "sentence-simulated",
+  "audio": [
+    { "audioId": "s001", "sourceFile": "not-present/s001.wav", "durationSeconds": 4 },
+    { "audioId": "s002", "sourceFile": "not-present/s002.wav", "durationSeconds": 4 }
+  ],
+  "sentences": [
+    { "id": "s001", "audioId": "s001", "startSeconds": 0, "endSeconds": 4 },
+    { "id": "s002", "audioId": "s002", "startSeconds": 0, "endSeconds": 4 }
+  ]
+}

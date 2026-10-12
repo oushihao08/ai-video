@@ -1,0 +1,94 @@
+{
+  "type": "independent_review",
+  "status": "passed",
+  "reviewedAt": "2026-10-12",
+  "reviewer": "独立审核子代理；与作者隔离，先完成匿名正文判断，后读取现行规则与修订稿",
+  "scope": "最终正文、要求、实际固定材料、来源关联、骨架及 direction/shots/scenes 的声画信息设计；不含真实声音或媒体播放审核。",
+  "basis": {
+    "scriptSha256": "733577d1fcedc3a6f17f6e9ea0dafe4f6e5b68081123ad4a0776432c8620d740",
+    "rulesSha256": "46869b9a72f844fe5fc00b67d95b8f761dc64c6b72ef57b8fe464ce0153b6636",
+    "requirementsSha256": "bfb7922156e2fdf9df35c1d77d7fb17e96fea05667809ec8ec5305d9ee4e826d",
+    "contentPrinciples": [
+      {
+        "path": "references/handoff.md",
+        "sha256": "eac2b2126ee0cbf533a42a5b4d4cea747426f5a3cd9d4e6c2245070f26303278"
+      },
+      {
+        "path": "skills/story-plan/SKILL.md",
+        "sha256": "f0390d45472dc74cda769a02a73c51b8b0884e844575134119ddb22f7d6753b5"
+      },
+      {
+        "path": "skills/story-plan/references/content-principles.md",
+        "sha256": "d45f38284d93c28a4a461f2345dae7c4b56b034d934bb7aac766a8d147cdac97"
+      },
+      {
+        "path": "skills/story-satire/SKILL.md",
+        "sha256": "8c79d5e8c31cdd94b293fe1d9fd9eeef630d0f8a3e25a169d3544220c6a86adb"
+      },
+      {
+        "path": "skills/story-write/SKILL.md",
+        "sha256": "094d917dc4b22f664aa2f6c3de09e44a9043d911634d069d4e65cf05bd21369f"
+      }
+    ],
+    "outlineSha256": "71409b26b51da29ddffaae0b51f0fddc2aa249474c5a644aa79f71ce73954a44",
+    "sources": [
+      {
+        "path": "research/materials.md",
+        "sha256": "bb8538444fa9c76675b31ccd7e56c9ce3af54d78566b9d17ca0ba7c72f515291"
+      },
+      {
+        "path": "research/sources.md",
+        "sha256": "91914262b1c4d9678b3316d801d88b9322fbed82868a75e58a030281a0c60931"
+      }
+    ],
+    "visualSources": [
+      {
+        "path": "visual/direction.md",
+        "sha256": "7846e40d795123303049c4d4d2bd3dfac44717a66c7894e9d18b587583ed4c79"
+      },
+      {
+        "path": "visual/scenes/index.jsx",
+        "sha256": "db82ebd90e18e7520fbbed2da490a437291d67dcd81ac6099a17a8fba35f05fd"
+      },
+      {
+        "path": "visual/shots.json",
+        "digest": "visual-content-v1",
+        "sha256": "7f8e18fa984e312943d972ae83b3a7d4ee7f8a5f5ed3a8a55b2eb5f4361c25b3"
+      }
+    ]
+  },
+  "unresolved": [],
+  "issues": [],
+  "reviewNotes": [
+    "s001 明示完全虚构；s002–s004、s006 完整保留 F1 的宣传、单场时间与回应，未添加消费者反应或动机。",
+    "s005、s007、s011 的反语依靠告别承诺与实际占时、名称解释成立；s009 区分票价和映前内容，嘲讽对象未偏移。",
+    "声画设计中的虚构标识、时钟和时间带、改名后内容保留与票价/时间分列均支持正文；抽象影厅和正片图形是示意，不是现实影城证据。",
+    "构图源码复核通过：对照初审时的源码与当前最终源码：占时仍是12分钟由 x1100/y330 移至 x640/y475，放在银幕下方、时间带上方；比较两轴由 x170–1110 内收到 x300–980，端点和结果文字随之内收，减少文字跨银幕边框的风险。 价格/占时的文案、出现条件、cue短语、商业宣传转正片和改名后保留内容均不变；删除两个未被渲染使用的showPrice/showTime局部变量没有改变表达。未增加视觉事实。实际成片可读性待重渲染后检查，本次未进行声音听查。"
+  ],
+  "limitations": [
+    "只核对给定固定材料，没有重新访问史料网页或补充考证。",
+    "估时不是配音实测，表达标注与同步设计不是实际表演或连续播放。",
+    "无用户内容认可、真实声音听查或最终媒体验收结论。"
+  ],
+  "rechecks": [
+    {
+      "reviewedAt": "2026-10-12",
+      "type": "composition_source_recheck",
+      "status": "passed",
+      "scope": "实际构图差异与最终场景源码；只复核影响可读设计的坐标调整，不是实际重渲染或声音听查。",
+      "path": "visual/scenes/index.jsx",
+      "previousSha256": "ca272425385931a2ab137b06fca8273e0d437f7d7a47035e6e776e034f0f01ce",
+      "currentSha256": "db82ebd90e18e7520fbbed2da490a437291d67dcd81ac6099a17a8fba35f05fd",
+      "findings": [
+        "对照初审时的源码与当前最终源码：占时仍是12分钟由 x1100/y330 移至 x640/y475，放在银幕下方、时间带上方；比较两轴由 x170–1110 内收到 x300–980，端点和结果文字随之内收，减少文字跨银幕边框的风险。",
+        "价格/占时的文案、出现条件、cue短语、商业宣传转正片和改名后保留内容均不变；删除两个未被渲染使用的showPrice/showTime局部变量没有改变表达。未增加视觉事实。"
+      ],
+      "unchangedBasis": "正文、规则、要求、内容原则与专项、来源、骨架、direction和shots的visual-content-v1摘要均与初审一致。shots加入实测源帧映射是时间变化。",
+      "unresolved": [],
+      "limitations": [
+        "没有观看调整后的实际重渲染，不能据源码声明跨框或遮挡在成片已修复。",
+        "没有听查配音，也没有新增字词同步、连续播放或用户接受结论。"
+      ]
+    }
+  ]
+}

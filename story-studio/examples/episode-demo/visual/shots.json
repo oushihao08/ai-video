@@ -1,0 +1,156 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "timeStatus": "estimated",
+  "units": [
+    {
+      "id": "unit-01",
+      "sentenceIds": [
+        "s001",
+        "s002"
+      ],
+      "newInformation": "渡口封闭后队伍改道并抵达",
+      "visualRole": "让封闭、改道和抵达成为连续动作"
+    },
+    {
+      "id": "unit-02",
+      "sentenceIds": [
+        "s003"
+      ],
+      "newInformation": "两支小队沿不同路线靠近营地",
+      "visualRole": "用颜色和路径区分两队的空间关系"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "unitId": "unit-01",
+      "estimatedSeconds": 8,
+      "startState": "队伍到达渡口",
+      "change": "发现封闭标记并改走上游",
+      "endState": "队伍抵达新的过河点",
+      "syncIntent": "封闭先被看见，再展示改道结果",
+      "scene": {
+        "type": "story",
+        "data": {
+          "title": "渡口封闭",
+          "context": "队伍改走上游",
+          "arrivalLabel": "已抵达",
+          "demonstration": true
+        }
+      }
+    },
+    {
+      "id": "shot-02",
+      "unitId": "unit-02",
+      "estimatedSeconds": 7,
+      "startState": "两队分别位于左右",
+      "change": "沿不同路线移动",
+      "endState": "两队接近营地",
+      "syncIntent": "先辨认两队，再观察路径和终点",
+      "scene": {
+        "type": "battle",
+        "data": {
+          "title": "两路接近营地",
+          "evidenceStatus": "demonstration",
+          "factions": [
+            {
+              "id": "east",
+              "name": "东队",
+              "color": "#a65042"
+            },
+            {
+              "id": "west",
+              "name": "西队",
+              "color": "#416b9a"
+            }
+          ],
+          "terrain": [
+            {
+              "kind": "river",
+              "points": [
+                [
+                  640,
+                  160
+                ],
+                [
+                  620,
+                  300
+                ],
+                [
+                  650,
+                  520
+                ]
+              ],
+              "width": 26
+            }
+          ],
+          "places": [
+            {
+              "id": "camp",
+              "name": "营地",
+              "x": 650,
+              "y": 600
+            }
+          ],
+          "routes": [
+            {
+              "id": "route-east",
+              "points": [
+                [
+                  1030,
+                  240
+                ],
+                [
+                  850,
+                  330
+                ],
+                [
+                  680,
+                  530
+                ]
+              ]
+            },
+            {
+              "id": "route-west",
+              "points": [
+                [
+                  230,
+                  230
+                ],
+                [
+                  400,
+                  340
+                ],
+                [
+                  620,
+                  530
+                ]
+              ]
+            }
+          ],
+          "armies": [
+            {
+              "id": "army-east",
+              "name": "东队",
+              "factionId": "east",
+              "routeId": "route-east",
+              "startFrame": 20,
+              "endFrame": 175
+            },
+            {
+              "id": "army-west",
+              "name": "西队",
+              "factionId": "west",
+              "routeId": "route-west",
+              "startFrame": 35,
+              "endFrame": 185
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "audioPlacements": []
+}

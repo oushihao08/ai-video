@@ -1,0 +1,26 @@
+{
+  "scope": "文件与摘要协议检查；临时passed对象仅为函数输入形状，不是独立审核凭据，未调用TTS",
+  "results": [
+    {
+      "case": "legacy-single",
+      "result": true
+    },
+    {
+      "case": "new-array",
+      "result": true
+    },
+    {
+      "case": "listed-rule-changed",
+      "rejected": true
+    },
+    {
+      "case": "requirements-changed",
+      "rejected": true
+    },
+    {
+      "case": "listed-rule-missing",
+      "rejected": true,
+      "error": "ENOENT"
+    }
+  ]
+}

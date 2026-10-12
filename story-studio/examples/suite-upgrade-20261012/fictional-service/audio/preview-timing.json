@@ -1,0 +1,211 @@
+{
+  "version": 1,
+  "status": "preview",
+  "selectedIds": [
+    "s003"
+  ],
+  "sourceTimeUnit": "seconds",
+  "scriptSha256": "b729f0a7a8c9eb7315cb7299275819b81437bb03a50501c259f10acff4fe6bff",
+  "deliverySha256": "c7747da2b5d691b1ddfae49ee486101e3d6478c4860683039c7c9c57e63cad5f",
+  "voiceInputSha256": "8b0edd55f132b7cbb9c3c98e0f34c8197104a8e04e64ff64d35a4122566ffb58",
+  "voice": {
+    "engine": "volc",
+    "speaker": "zh_male_yuanboxiaoshu_uranus_bigtts",
+    "speed": 0,
+    "resource": "seed-tts-2.0"
+  },
+  "audio": [
+    {
+      "audioId": "s003",
+      "sourceFile": "audio/s003-69f58ea6895cbb7888f3150fd8fac3c006ad57f806d37ccfc710f604b2e2f0a5.wav",
+      "audioSha256": "2e5b96b52869fd17eed162ff905dc9d01a68e4546e960cda2a758772f5bc91ed",
+      "durationSeconds": 7.464014,
+      "inputSha256": "69f58ea6895cbb7888f3150fd8fac3c006ad57f806d37ccfc710f604b2e2f0a5",
+      "source": "verified-cache"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s003",
+      "segmentId": "seg-03",
+      "audioId": "s003",
+      "startSeconds": 0,
+      "endSeconds": 7.464014,
+      "precision": "word",
+      "words": [
+        {
+          "text": "洗",
+          "startSeconds": 0.155,
+          "endSeconds": 0.385,
+          "confidence": 0.91240525
+        },
+        {
+          "text": "完，",
+          "startSeconds": 0.385,
+          "endSeconds": 0.625,
+          "confidence": 0.81546605
+        },
+        {
+          "text": "喇",
+          "startSeconds": 1.195,
+          "endSeconds": 1.335,
+          "confidence": 0.81980276
+        },
+        {
+          "text": "叭",
+          "startSeconds": 1.335,
+          "endSeconds": 1.425,
+          "confidence": 0.77874494
+        },
+        {
+          "text": "响",
+          "startSeconds": 1.425,
+          "endSeconds": 1.685,
+          "confidence": 0.91174966
+        },
+        {
+          "text": "了：“",
+          "startSeconds": 1.685,
+          "endSeconds": 1.855,
+          "confidence": 0.7946561
+        },
+        {
+          "text": "欢",
+          "startSeconds": 2.145,
+          "endSeconds": 2.365,
+          "confidence": 0.874789
+        },
+        {
+          "text": "迎",
+          "startSeconds": 2.365,
+          "endSeconds": 2.435,
+          "confidence": 0.8583311
+        },
+        {
+          "text": "下",
+          "startSeconds": 2.435,
+          "endSeconds": 2.625,
+          "confidence": 0.86170536
+        },
+        {
+          "text": "次",
+          "startSeconds": 2.625,
+          "endSeconds": 2.735,
+          "confidence": 0.92215294
+        },
+        {
+          "text": "光",
+          "startSeconds": 2.735,
+          "endSeconds": 2.945,
+          "confidence": 0.846601
+        },
+        {
+          "text": "临。”",
+          "startSeconds": 2.945,
+          "endSeconds": 2.975,
+          "confidence": 0.17953055
+        },
+        {
+          "text": "小",
+          "startSeconds": 3.6600416,
+          "endSeconds": 3.8650415,
+          "confidence": 0.952353
+        },
+        {
+          "text": "林",
+          "startSeconds": 3.8650415,
+          "endSeconds": 4.0650415,
+          "confidence": 0.85649455
+        },
+        {
+          "text": "甩",
+          "startSeconds": 4.0650415,
+          "endSeconds": 4.2450414,
+          "confidence": 0.79593354
+        },
+        {
+          "text": "甩",
+          "startSeconds": 4.2450414,
+          "endSeconds": 4.3750415,
+          "confidence": 0.7148917
+        },
+        {
+          "text": "手",
+          "startSeconds": 4.3750415,
+          "endSeconds": 4.575042,
+          "confidence": 0.9367302
+        },
+        {
+          "text": "上",
+          "startSeconds": 4.575042,
+          "endSeconds": 4.7050414,
+          "confidence": 0.96071917
+        },
+        {
+          "text": "的",
+          "startSeconds": 4.7050414,
+          "endSeconds": 4.825042,
+          "confidence": 0.6799649
+        },
+        {
+          "text": "水：“",
+          "startSeconds": 5.035042,
+          "endSeconds": 5.0650415,
+          "confidence": 0.2602278
+        },
+        {
+          "text": "行，",
+          "startSeconds": 5.3750415,
+          "endSeconds": 5.705042,
+          "confidence": 0.93826914
+        },
+        {
+          "text": "明",
+          "startSeconds": 6.1450415,
+          "endSeconds": 6.3050413,
+          "confidence": 0.9457745
+        },
+        {
+          "text": "天",
+          "startSeconds": 6.3050413,
+          "endSeconds": 6.4250417,
+          "confidence": 0.9445718
+        },
+        {
+          "text": "排",
+          "startSeconds": 6.4250417,
+          "endSeconds": 6.5850415,
+          "confidence": 0.9164774
+        },
+        {
+          "text": "我",
+          "startSeconds": 6.5850415,
+          "endSeconds": 6.6750417,
+          "confidence": 0.94370586
+        },
+        {
+          "text": "什",
+          "startSeconds": 6.6750417,
+          "endSeconds": 6.7950416,
+          "confidence": 0.91905856
+        },
+        {
+          "text": "么",
+          "startSeconds": 6.7950416,
+          "endSeconds": 6.885041,
+          "confidence": 0.73809236
+        },
+        {
+          "text": "班？”",
+          "startSeconds": 6.9850416,
+          "endSeconds": 7.0150414,
+          "confidence": 0.2857697
+        }
+      ]
+    }
+  ],
+  "precision": "word",
+  "listening": {
+    "status": "not-checked"
+  }
+}

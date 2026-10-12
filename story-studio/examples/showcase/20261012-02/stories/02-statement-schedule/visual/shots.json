@@ -1,0 +1,52 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "timeStatus": "measured",
+  "units": [
+    {
+      "id": "unit-01",
+      "sentenceIds": ["s001"],
+      "newInformation": "测试报道所述的三车制动结果、尊界声明及其后续安排",
+      "visualRole": "先用三条制动带与三个部件符号对应测试结果，再把测试报道和尊界声明并列标源"
+    },
+    {
+      "id": "unit-02",
+      "sentenceIds": ["s002"],
+      "newInformation": "客服转述的预计时间，与尚未说明更换部件的想象维修单",
+      "visualRole": "预计时间保留虚线状态；在明确标示想象的维修单上填入报道所述现象，让更换部件栏保持空白"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "unitId": "unit-01",
+      "intent": "把报道中的三辆测试车和部件结果画成可追踪的三组记录，然后并列展示品牌声明",
+      "startState": "炭黑编辑网格上只有来源标签和三条待启动的制动带",
+      "change": "三辆抽象车标记沿制动带进入并依次刹停；三个部件符号按口播显现并断开；画面压缩为测试报道与尊界声明两栏",
+      "endState": "测试报道的结果留在左栏，尊界的工况原话与两项后续安排留在右栏，来源标签持续可见",
+      "syncIntent": "三辆车在“连续急刹”后运动；部件随“踏板支架底座”出现并在“都断了”时断开；声明卡跟随“尊界当天称”进入，引文、优化与免费升级分别按实测词时间揭示",
+      "sourceRef": "research/materials.md：测试报道与尊界声明；不将任一来源陈述画成独立鉴定",
+      "scene": {"type": "custom", "data": {"key": "BrakeReport"}},
+      "startFrame": 0,
+      "durationFrames": 402
+    },
+    {
+      "id": "shot-02",
+      "unitId": "unit-02",
+      "intent": "把预计时间和实际未填的维修细节并置，让观众直接看到空栏",
+      "startState": "浅灰时间线显示客服转述来源，两个节点均以虚线表现尚未完成",
+      "change": "预计月底确认与十一月起陆续升级按口播出现；时间线退场，标有“想象 / 示意”的维修单进入；先填入测试报道所述现象，再显示空白更换部件栏",
+      "endState": "维修单的现象栏已填，更换部件栏仍空白；画面静止保留短尾帧",
+      "syncIntent": "节点分别跟随“方案预计月底确认”“十一月起”“陆续升级”；维修单在“想象一张维修单”出现，现象与空栏分别跟随“故障栏写清楚了”“换什么件”，最后在“那格还空着”后停住",
+      "sourceRef": "research/materials.md：客服转述的预计时间；维修单为创作示意，不是真实工单",
+      "scene": {"type": "custom", "data": {"key": "ServiceSchedule"}},
+      "startFrame": 402,
+      "durationFrames": 353
+    }
+  ],
+  "audioPlacements": [
+    {"audioId": "s001", "sourceInSeconds": 0, "sourceOutSeconds": 13.224014, "timelineStartFrame": 0},
+    {"audioId": "s002", "sourceInSeconds": 0, "sourceOutSeconds": 11.064014, "timelineStartFrame": 402}
+  ]
+}

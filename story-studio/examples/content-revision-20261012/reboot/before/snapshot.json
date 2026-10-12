@@ -1,0 +1,45 @@
+{
+  "reason": "用户实际观看后否定两份样片；保存本轮改动前规则与内容，不含媒体或私有配置",
+  "files": [
+    {
+      "path": "skills/story-voice/SKILL.md",
+      "sha256": "4171b9a141dadaea1b977b89b88896dcdcdbd295d2f65e5a04b382855e2765be"
+    },
+    {
+      "path": "skills/story-review/SKILL.md",
+      "sha256": "46869b9a72f844fe5fc00b67d95b8f761dc64c6b72ef57b8fe464ce0153b6636"
+    },
+    {
+      "path": "skills/story-plan/SKILL.md",
+      "sha256": "f0390d45472dc74cda769a02a73c51b8b0884e844575134119ddb22f7d6753b5"
+    },
+    {
+      "path": "skills/story-satire/SKILL.md",
+      "sha256": "8c79d5e8c31cdd94b293fe1d9fd9eeef630d0f8a3e25a169d3544220c6a86adb"
+    },
+    {
+      "path": "skills/story-history/SKILL.md",
+      "sha256": "06d91adc896d62af25a7f5fead9469108a0b18e9dbe0d15c73b57882f2d09150"
+    },
+    {
+      "path": "skills/story-video/SKILL.md",
+      "sha256": "9a6d37d040b5491763c1a1089de17acd7f8ae5f78169be3cecc23b1df05f8f79"
+    },
+    {
+      "path": "skills/story-write/SKILL.md",
+      "sha256": "094d917dc4b22f664aa2f6c3de09e44a9043d911634d069d4e65cf05bd21369f"
+    },
+    {
+      "path": "skills/story-produce/SKILL.md",
+      "sha256": "53941a655c9b6035ca777ec33e41b95568ac4729f3580e9db58306f3efb0f56d"
+    },
+    {
+      "path": "skills/story-plan/references/content-principles.md",
+      "sha256": "d45f38284d93c28a4a461f2345dae7c4b56b034d934bb7aac766a8d147cdac97"
+    },
+    {
+      "path": "references/handoff.md",
+      "sha256": "eac2b2126ee0cbf533a42a5b4d4cea747426f5a3cd9d4e6c2245070f26303278"
+    }
+  ]
+}

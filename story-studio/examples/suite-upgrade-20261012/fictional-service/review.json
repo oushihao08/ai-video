@@ -1,0 +1,79 @@
+{
+  "type": "independent_review",
+  "status": "passed",
+  "reviewer": "/root/new_examples_review",
+  "reviewScope": "独立正文与声画设计内容审核；先读requirements和正文形成作品判断，再读outline、materials、当前规则，最后读visual设计。没有听声音、看场景实现或成片。",
+  "basis": {
+    "scriptSha256": "b729f0a7a8c9eb7315cb7299275819b81437bb03a50501c259f10acff4fe6bff",
+    "rulesSha256": "58408b805fbe6fa23136c84e5a8fa2804c7977ecb8e755fd82908ad7f416cb07",
+    "requirementsSha256": "18505fea8947f1d3bd26f14042d5e0dc9c8acab296b1031c65d39b180b317f25",
+    "outlineSha256": "ce533ba9d95cbcbdb699b04a8606a984909903a4baf15d5dc6e68a69faabeee7",
+    "contentPrinciples": [
+      {
+        "path": "references/handoff.md",
+        "sha256": "c2efd86f8044732fd10e7e670e69fb0d103727fba6d1178c33aef0e50cc3ff1b"
+      },
+      {
+        "path": "skills/story-plan/SKILL.md",
+        "sha256": "9d2cca18df025ddd3c79228ef0ba08b3fd51f4125f80ff5d7e7508549cacfc03"
+      },
+      {
+        "path": "skills/story-plan/references/content-principles.md",
+        "sha256": "ffd469e52564140730db79215a73c06c4565eba8d2ffd2bfeb8c81fde3cf481e"
+      },
+      {
+        "path": "skills/story-plan/references/storytelling-foundation.md",
+        "sha256": "919a93699ed5c8c4238395e7f28d0addb81273e76eae87acb9681c30d6217d61"
+      },
+      {
+        "path": "skills/story-satire/SKILL.md",
+        "sha256": "41a61b28cb253b4e2e647f63ff1811dd22c2cc01fe5965ff5c63fd396805eff8"
+      },
+      {
+        "path": "skills/story-write/SKILL.md",
+        "sha256": "9d139969eec3c2f9acf03bc6ac0d8f2949d59de70e2c6cf3c094fe2966ddbe2c"
+      }
+    ],
+    "sources": [
+      {
+        "path": "research/materials.md",
+        "sha256": "c7e635a120c19e6cdb0f932dc87fd9697adce8113206de00acf2f26f3181d359"
+      }
+    ],
+    "visualSources": [
+      {
+        "path": "visual/direction.md",
+        "sha256": "585a041b9940f61273f3282a52076949f8a59a865c33ffaab5de46bb5c0b080b"
+      },
+      {
+        "path": "visual/shots.json",
+        "digest": "visual-content-v1",
+        "sha256": "e261d82a36734cccf8da24d1d3acaeab61e8d83970202bfd40b789e602a8f2b0"
+      }
+    ]
+  },
+  "workJudgment": {
+    "attention": "s001从付钱、自行制茶建立拿到饮品即可离开的预期。",
+    "progression": "s002在杯子已经拿起时追加倒茶渣和洗滤网，顾客转去水池；新增工作由店内屏幕安排，与顾客失误无关。",
+    "payoff": "s003甩手上的水接欢迎语，再以“明天排我什么班”回顶，员工身份的回应有前文维护工作的铺垫。",
+    "assessment": "轻调侃落在具体服务安排，正文没有替观众总结荒诞，假设身份清楚，可以进入制作。不是仅凭反语存在判通过。"
+  },
+  "factJudgment": "全文在s001假设语境内，店名、人物、系统提示、对白和动作均为授权虚构；未扩展为现实行业事实或经营动机。",
+  "designJudgment": "同店柜台、机器、水池、出口可承接连续动作。设计要求先倒渣、再冲洗，不提前显示下一条提示；日历只在回应完成后作为假想出现，不表示真实排班。所列意义与正文相容。字幕分块、真实词级cue和片尾反应均只是设计要求，尚无实现证据。",
+  "resolvedIssues": [
+    {
+      "location": "初版s002与s003",
+      "problem": "初版由顾客失手洒饮品触发擦台面，无法支撑店家增加顾客工作的调侃。",
+      "resolution": "当前s002改为饮品完成后店内屏幕连续安排维护工作，回应与行为来源已接上。"
+    }
+  ],
+  "issues": [],
+  "unresolved": [],
+  "limitations": [
+    "只放行当前正文与已读声画内容设计进入制作，未证明实际好笑、自然、清晰或节奏成立。",
+    "约25–40秒为编辑目标，尚无实测声音；shots仍为估算时间。",
+    "日历只能作为对白后的假想余味；若实现增加真实排班、动机或其他新信息，须复核受影响内容。",
+    "新案例为作者自选，不能改称用户认可或套件普遍改善证据。"
+  ],
+  "downstream": "可进入关键配音预演和制作；真实声音、字幕揭示、动作同步及成片效果另行检查。"
+}

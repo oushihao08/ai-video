@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "timezone": "Asia/Shanghai",
+  "topics": [
+    {"id": "productivity", "label": "AI 提升生产力", "queries": ["AI 工作流", "AI 自动化", "AI productivity"]},
+    {"id": "technology", "label": "AI 技术", "queries": ["大模型", "AI agent", "模型评测"]},
+    {"id": "tools", "label": "AI 工具", "queries": ["AI 工具", "AI tool"]},
+    {"id": "video", "label": "AI 制作视频", "queries": ["AI 视频", "AI video", "角色一致性"]},
+    {"id": "content", "label": "AI 内容生成", "queries": ["AI 写作", "AI 图像", "AI content generation"]}
+  ],
+  "sources": [
+    {"site": "twitter", "enabled": false, "mode": "following_feed", "authors": []},
+    {"site": "bilibili", "enabled": false, "mode": "following_feed", "authors": []},
+    {"site": "xiaohongshu", "enabled": false, "mode": "following_search", "authors": []}
+  ],
+  "window": {"lookbackHours": 72},
+  "budget": {
+    "maxSourceCalls": 12,
+    "itemsPerCall": 30,
+    "maxDetailCalls": 12,
+    "commentsPerItem": 10,
+    "timeoutSeconds": 60
+  },
+  "discovery": {"outsideFollowing": false, "platforms": []},
+  "output": {"maxRecommendations": 10, "dataDir": "./data"}
+}

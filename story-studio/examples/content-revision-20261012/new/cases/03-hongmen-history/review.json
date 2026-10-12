@@ -1,0 +1,57 @@
+{
+  "type": "independent_review",
+  "status": "passed",
+  "reviewedAt": "2026-10-12",
+  "reviewer": "独立审核子代理；与作者隔离，先完成匿名正文判断，后读取现行规则与修订稿",
+  "scope": "最终正文、要求、实际固定材料、来源关联与骨架；不含声音或视频审核。",
+  "basis": {
+    "scriptSha256": "839ae7519548baab33d1c024a02b0f1b4ee6c179768337068040af96bb45fdbf",
+    "rulesSha256": "46869b9a72f844fe5fc00b67d95b8f761dc64c6b72ef57b8fe464ce0153b6636",
+    "requirementsSha256": "7adbbe098727de9fb7c6ec4d3af18e3dcd2f79b3b3441dd6d9255ad5f6a62d7c",
+    "contentPrinciples": [
+      {
+        "path": "references/handoff.md",
+        "sha256": "eac2b2126ee0cbf533a42a5b4d4cea747426f5a3cd9d4e6c2245070f26303278"
+      },
+      {
+        "path": "skills/story-history/SKILL.md",
+        "sha256": "06d91adc896d62af25a7f5fead9469108a0b18e9dbe0d15c73b57882f2d09150"
+      },
+      {
+        "path": "skills/story-plan/SKILL.md",
+        "sha256": "f0390d45472dc74cda769a02a73c51b8b0884e844575134119ddb22f7d6753b5"
+      },
+      {
+        "path": "skills/story-plan/references/content-principles.md",
+        "sha256": "d45f38284d93c28a4a461f2345dae7c4b56b034d934bb7aac766a8d147cdac97"
+      },
+      {
+        "path": "skills/story-write/SKILL.md",
+        "sha256": "094d917dc4b22f664aa2f6c3de09e44a9043d911634d069d4e65cf05bd21369f"
+      }
+    ],
+    "outlineSha256": "dcbd4216f0c0f2d2602087cb8414d7a7651bd3773c57584e0d1d3769755f63e3",
+    "sources": [
+      {
+        "path": "research/materials.md",
+        "sha256": "bb8538444fa9c76675b31ccd7e56c9ce3af54d78566b9d17ca0ba7c72f515291"
+      },
+      {
+        "path": "research/sources.md",
+        "sha256": "00c4e3249227536f4c50cf13fff720b5a93f897863ece37ab1df77fd8f5fadfb"
+      }
+    ]
+  },
+  "unresolved": [],
+  "issues": [],
+  "reviewNotes": [
+    "s002–s007 通过旧交、张良跟随刘邦、项伯传信返营与劝说，解释关系带来的转机；s008 明确转入次日赴宴。",
+    "s009–s014 正确区分范增的示意与杀人安排、项羽不应、项伯遮护及刘邦离席，未补心理、项羽命令或后世胜败。",
+    "材料未提供刘邦话语全文，正文只保留转述节点，s015 又明确关系与劝说的作用；该压缩没有制造本任务必须依靠审核者外部知识才能填补的缺口。"
+  ],
+  "limitations": [
+    "只核对给定固定材料，没有重新访问史料网页或补充考证。",
+    "估时不是配音实测，表达标注与同步设计不是实际表演或连续播放。",
+    "无用户内容认可、真实声音听查或最终媒体验收结论。"
+  ]
+}

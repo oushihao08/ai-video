@@ -1,0 +1,170 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "timeStatus": "measured-audio",
+  "units": [
+    {
+      "id": "unit-pressure",
+      "sentenceIds": [
+        "s001"
+      ],
+      "newInformation": "刀刃尚未完全切开外层，内部组织已经受压变形。",
+      "visualRole": "以横切面轮廓的压扁和回弹，表现刀口施力，不依赖说明文字。"
+    },
+    {
+      "id": "unit-spray-order",
+      "sentenceIds": [
+        "s002"
+      ],
+      "newInformation": "刀锋穿过后，细雾先出现，较大的液滴后出现。",
+      "visualRole": "分成连续两镜，让雾的扩散先完成，再让液滴甩出；只表达实验观察到的先后。"
+    },
+    {
+      "id": "unit-irritant",
+      "sentenceIds": [
+        "s003"
+      ],
+      "newInformation": "组织破裂释放含硫刺激物，气溶胶可将其带入空气并引起眼部刺激。",
+      "visualRole": "用与可见液滴不同的细赭色墨线表现原理传播；不绘制真实分子结构或哭泣人物。"
+    },
+    {
+      "id": "unit-contrast",
+      "sentenceIds": [
+        "s004"
+      ],
+      "newInformation": "来源实验中，更快的切割和更钝的刀刃对应更多喷出液滴；结尾回到锋利、缓慢的一刀。",
+      "visualRole": "同一画面做快钝与慢锋的动态对照，不显示未经来源支持的数量或速度。"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-pressure",
+      "unitId": "unit-pressure",
+      "sentenceIds": [
+        "s001"
+      ],
+      "startState": "刀尖悬在洋葱表层，横切面的内层轮廓完整。",
+      "change": "刀向下压，洋葱上缘凹陷，内层轮廓挤紧并向两侧鼓起。",
+      "endState": "刀尖压入外层，切口尚未完全贯穿，形变仍可见。",
+      "syncIntent": "按口播句级时长展示；刀压变化是视觉安排，未按单词对齐。",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "InkFlow",
+          "stage": "pressure"
+        }
+      },
+      "startFrame": 0,
+      "durationFrames": 140
+    },
+    {
+      "id": "shot-first-mist",
+      "unitId": "unit-spray-order",
+      "sentenceIds": [
+        "s002"
+      ],
+      "startState": "刀锋进入切面，洋葱内部刚开始破开。",
+      "change": "细薄的浅色雾线从破口先行扩散，随气流向上漂移。",
+      "endState": "雾已离开切口，画面仍没有出现大液滴。",
+      "syncIntent": "雾在实测词级落点“先喷细雾”触发；随后的扩散为动画演绎。",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "InkFlow",
+          "stage": "first-mist"
+        }
+      },
+      "durationFrames": 75,
+      "startFrame": 140
+    },
+    {
+      "id": "shot-later-drops",
+      "unitId": "unit-spray-order",
+      "sentenceIds": [
+        "s002"
+      ],
+      "startState": "细雾仍在空气中扩散，切口保持打开。",
+      "change": "较大的半透明液滴在雾之后从切口甩出，沿不同弧线移动。",
+      "endState": "液滴远离切面，先雾后滴的顺序一眼可见。",
+      "syncIntent": "镜头边界接入实测词级落点“再”；液滴在“甩出液滴”词级 cue 触发。",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "InkFlow",
+          "stage": "later-drops"
+        }
+      },
+      "durationFrames": 120,
+      "startFrame": 215
+    },
+    {
+      "id": "shot-airborne-irritant",
+      "unitId": "unit-irritant",
+      "sentenceIds": [
+        "s003"
+      ],
+      "startState": "切口边缘显露被破坏的组织，淡雾经过开放空气。",
+      "change": "赭色细墨线从组织边缘进入气流，并随淡雾流向抽象的眼部轮廓。",
+      "endState": "气流到达眼形轮廓，眼睑轻微收紧；没有液体或哭泣反应。",
+      "syncIntent": "刺激物线、雾滴携带和眼部反馈分别接入实测词级 cue；线条是原理演绎。",
+      "sourceRef": "research/materials.md#2-刺激性含硫物质",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "InkFlow",
+          "stage": "carry"
+        }
+      },
+      "startFrame": 335,
+      "durationFrames": 195
+    },
+    {
+      "id": "shot-speed-blade-contrast",
+      "unitId": "unit-contrast",
+      "sentenceIds": [
+        "s004"
+      ],
+      "startState": "同一空间并列两处切割：宽钝刀在左，细锋刀在右。",
+      "change": "左侧刀快速下压并喷出较多液滴；右侧刀缓慢通过，喷溅较少。",
+      "endState": "左侧动势散去，画面停在右侧锋利、平稳的切割动作。",
+      "syncIntent": "依 s004 口播句级时长展示，画面动作未做词级同步；仅呈现来源支持的定性对照。",
+      "sourceRef": "research/materials.md#1-洋葱切割时的喷雾与液滴",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "InkFlow",
+          "stage": "comparison"
+        }
+      },
+      "startFrame": 530,
+      "durationFrames": 225
+    }
+  ],
+  "audioPlacements": [
+    {
+      "audioId": "s001",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 4.44,
+      "timelineStartFrame": 0
+    },
+    {
+      "audioId": "s002",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.264014,
+      "timelineStartFrame": 140
+    },
+    {
+      "audioId": "s003",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.264014,
+      "timelineStartFrame": 335
+    },
+    {
+      "audioId": "s004",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.84,
+      "timelineStartFrame": 530
+    }
+  ]
+}

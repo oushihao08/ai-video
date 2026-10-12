@@ -1,0 +1,183 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "timeStatus": "measured-source-mapped",
+  "units": [
+    {
+      "id": "unit-01",
+      "sentenceIds": [
+        "s001",
+        "s002",
+        "s003"
+      ],
+      "newInformation": "追记中客人要求不同，要求需送到厨房并回到本人",
+      "visualRole": "客席需求以不同符号出现，路径连到厨房"
+    },
+    {
+      "id": "unit-02",
+      "sentenceIds": [
+        "s004",
+        "s005"
+      ],
+      "newInformation": "行菜者在厨房附近唱念，铛头接到要求",
+      "visualRole": "口头波纹沿空间传递，不画记单"
+    },
+    {
+      "id": "unit-03",
+      "sentenceIds": [
+        "s006",
+        "s007"
+      ],
+      "newInformation": "左手三碗，右臂约二十碗，仍需逐一送准",
+      "visualRole": "左右负载分开计数，再对应需求符号分送"
+    },
+    {
+      "id": "unit-04",
+      "sentenceIds": [
+        "s008",
+        "s009",
+        "s010"
+      ],
+      "newInformation": "差错可能带来叱骂、扣工钱或辞退，过程靠准确配合",
+      "visualRole": "一处错配示意，后果分级呈现，返回整体对应关系"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "unitId": "unit-01",
+      "startState": "客席、厨房和通道建立",
+      "change": "三席依次提出不同要求",
+      "endState": "三种要求沿同一服务路径指向厨房",
+      "syncIntent": "s001显示追记身份；s002冷热及做法差异随口播出现",
+      "sourceRef": "H2 遍问坐客、人人索唤不同",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "RestaurantFlow",
+          "phase": "orders"
+        }
+      },
+      "startFrame": 0,
+      "durationFrames": 653
+    },
+    {
+      "id": "shot-02",
+      "unitId": "unit-02",
+      "startState": "行菜者站在厨房附近",
+      "change": "唱念的声音波纹逐项传至铛头",
+      "endState": "三种要求均抵达厨房",
+      "syncIntent": "s004说唱念时开启口头波纹；不画纸笔",
+      "sourceRef": "H2 近局次立、从头唱念、报与局内、铛头",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "RestaurantFlow",
+          "phase": "call"
+        }
+      },
+      "startFrame": 653,
+      "durationFrames": 285
+    },
+    {
+      "id": "shot-03",
+      "unitId": "unit-03",
+      "startState": "厨房出菜，左右手臂尚未显出数量",
+      "change": "左手三碗、右臂约二十碗分别展开；随后按要求分送",
+      "endState": "各需求符号与对应碗相连",
+      "syncIntent": "s006左手三碗和约二十碗分别揭示；s007才开始对应交付",
+      "sourceRef": "H2 左手杈三碗、右臂约二十碗、散下尽合",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "RestaurantFlow",
+          "phase": "serve"
+        }
+      },
+      "startFrame": 938,
+      "durationFrames": 410
+    },
+    {
+      "id": "shot-04",
+      "unitId": "unit-04",
+      "startState": "要求与碗对应关系保留",
+      "change": "一条错配路径出现，可能后果依次展示",
+      "endState": "回到服务链与上菜人的工钱关系",
+      "syncIntent": "s008说差错与各后果时分级出现；不演真实处罚事件",
+      "sourceRef": "H2 差错、白主人、叱骂、罚工价、逐之",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "RestaurantFlow",
+          "phase": "consequence"
+        }
+      },
+      "startFrame": 1348,
+      "durationFrames": 666
+    }
+  ],
+  "audioPlacements": [
+    {
+      "audioId": "s001",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.056009,
+      "timelineStartFrame": 0
+    },
+    {
+      "audioId": "s002",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 8.04,
+      "timelineStartFrame": 212
+    },
+    {
+      "audioId": "s003",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.672018,
+      "timelineStartFrame": 453
+    },
+    {
+      "audioId": "s004",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.056009,
+      "timelineStartFrame": 653
+    },
+    {
+      "audioId": "s005",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 2.424014,
+      "timelineStartFrame": 865
+    },
+    {
+      "audioId": "s006",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.84,
+      "timelineStartFrame": 938
+    },
+    {
+      "audioId": "s007",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.84,
+      "timelineStartFrame": 1143
+    },
+    {
+      "audioId": "s008",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.464014,
+      "timelineStartFrame": 1348
+    },
+    {
+      "audioId": "s009",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.872018,
+      "timelineStartFrame": 1572
+    },
+    {
+      "audioId": "s010",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 5.856009,
+      "timelineStartFrame": 1808
+    }
+  ],
+  "timeNote": "Source WAV measured by ffprobe; each full sentence placed consecutively using round(seconds*fps), no added intersentence silence; final state held 1 second. Word cues from TTS response; no listening approval."
+}

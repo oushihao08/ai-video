@@ -1,0 +1,33 @@
+{
+  "type": "independent_review",
+  "status": "passed",
+  "reviewer": "/root/review_v800_scripts",
+  "reviewScope": "独立审查两篇短正文；先读 requirements.md、script.md 与材料，后按作者意见修订，再逐句复核当前正文。未审音频与画面；允许进入短配音和动画预演。",
+  "basis": {
+    "scriptSha256": "f393e4830cf546fcaff11d6c5184c8907f34720f4cec5b3dfcd038f78d3859d1",
+    "rulesSha256": "58408b805fbe6fa23136c84e5a8fa2804c7977ecb8e755fd82908ad7f416cb07",
+    "requirementsSha256": "6ef21bf499dd1e93804be9a5981f137a5c29e31bc90d244ba2bbc3fd0d3009c6",
+    "contentPrinciples": [
+      { "path": "skills/story-plan/references/content-principles.md", "sha256": "ffd469e52564140730db79215a73c06c4565eba8d2ffd2bfeb8c81fde3cf481e" },
+      { "path": "skills/story-plan/references/storytelling-foundation.md", "sha256": "919a93699ed5c8c4238395e7f28d0addb81273e76eae87acb9681c30d6217d61" },
+      { "path": "skills/story-satire/SKILL.md", "sha256": "41a61b28cb253b4e2e647f63ff1811dd22c2cc01fe5965ff5c63fd396805eff8" }
+    ],
+    "sources": [
+      { "path": "research/materials.md", "sha256": "b28057ba974b6592390751e2ed14e377b6f56d7eaf0e3fc2a459d03db364ea30" }
+    ]
+  },
+  "workJudgment": {
+    "attention": "先听到用户给的‘脊梁骨’比喻，再辨认具体部件与车型。",
+    "progression": "从夸张的品牌比喻移到三辆测试车的踏板支架底座，再交代品牌回应与客服预计时间。",
+    "payoff": "假想维修单把公开故障现象和未确定换件方案放在同一张单上，落点可理解。",
+    "assessment": "当前稿适合短配音和动画预演；独立审稿认为尺度差可读，但尚不能证明笑点有力。"
+  },
+  "factJudgment": "三辆测试车和支架底座断裂、尊界公开口径及客服预计时间均有来源；正文将‘非标准的极端测试工况’归于尊界，维修单明示想象，没有把根因或责任归到华为。",
+  "issues": [],
+  "unresolved": [],
+  "limitations": [
+    "只通过正文进入低成本声画预演；不证明最终好笑、配音自然、画面清楚或用户接受。",
+    "客服时间是报道转述的预计安排；技术根因和升级方案仍未确定。"
+  ],
+  "downstream": "可以生成真实短配音和粗动画；根据实听和关键帧判断是否重写或改演法。"
+}

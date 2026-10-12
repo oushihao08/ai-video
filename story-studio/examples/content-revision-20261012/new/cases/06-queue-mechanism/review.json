@@ -1,0 +1,52 @@
+{
+  "type": "independent_review",
+  "status": "passed",
+  "reviewedAt": "2026-10-12",
+  "reviewer": "独立审核子代理；与作者隔离，先完成匿名正文判断，后读取现行规则与修订稿",
+  "scope": "最终正文、要求、实际固定材料、来源关联与骨架；不含声音或视频审核。",
+  "basis": {
+    "scriptSha256": "f83d1334d5d546321dc1d609bcc33e82bf9ee032348957cefe2fb323e350cf35",
+    "rulesSha256": "46869b9a72f844fe5fc00b67d95b8f761dc64c6b72ef57b8fe464ce0153b6636",
+    "requirementsSha256": "65fc2bc611f92025bef6662a8f2889cba65445bcbe3ac488bd031a5f36eb8e5e",
+    "contentPrinciples": [
+      {
+        "path": "references/handoff.md",
+        "sha256": "eac2b2126ee0cbf533a42a5b4d4cea747426f5a3cd9d4e6c2245070f26303278"
+      },
+      {
+        "path": "skills/story-plan/SKILL.md",
+        "sha256": "f0390d45472dc74cda769a02a73c51b8b0884e844575134119ddb22f7d6753b5"
+      },
+      {
+        "path": "skills/story-plan/references/content-principles.md",
+        "sha256": "d45f38284d93c28a4a461f2345dae7c4b56b034d934bb7aac766a8d147cdac97"
+      },
+      {
+        "path": "skills/story-write/SKILL.md",
+        "sha256": "094d917dc4b22f664aa2f6c3de09e44a9043d911634d069d4e65cf05bd21369f"
+      }
+    ],
+    "outlineSha256": "56a61c5298501f4185e64d0c339ea5aec4a13fdad2b914f5167fd6fd0b61d5cd",
+    "sources": [
+      {
+        "path": "research/materials.md",
+        "sha256": "bb8538444fa9c76675b31ccd7e56c9ce3af54d78566b9d17ca0ba7c72f515291"
+      },
+      {
+        "path": "research/sources.md",
+        "sha256": "8dcc2106426e754daea49409c691d53eabb7bba70be8c571d73ec5ccb20c0df0"
+      }
+    ]
+  },
+  "unresolved": [],
+  "issues": [],
+  "reviewNotes": [
+    "s001 明示示例规则；s002–s008 完整演示十号结束、十一号过号、十二号办理、十一号报号回来和下次与十三号比较。",
+    "s007 的办理不打断与 s008 的下一次最小号选择并存，s009–s011 明确原号入队既非立即办理也非自动末尾；没有添加现实统一政策。"
+  ],
+  "limitations": [
+    "只核对给定固定材料，没有重新访问史料网页或补充考证。",
+    "估时不是配音实测，表达标注与同步设计不是实际表演或连续播放。",
+    "无用户内容认可、真实声音听查或最终媒体验收结论。"
+  ]
+}

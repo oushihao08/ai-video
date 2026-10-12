@@ -1,0 +1,92 @@
+{
+  "type": "independent_review",
+  "status": "passed",
+  "reviewedAt": "2026-10-12",
+  "reviewer": {
+    "kind": "isolated_agent",
+    "task": "/root/story_reboot_review",
+    "authoredScript": false
+  },
+  "scope": "当前正文、必要读法、当前要求、骨架与所附材料的独立文本审查；不含配音听查、画面验证或用户效果验收。",
+  "basis": {
+    "scriptSha256": "539a74acb31c2ec9899a7c836422252232d13f2c3869c22dfe4dce2f9e83822f",
+    "rulesSha256": "a58074e2ef956b6febd27d1e301d181450e52c321629d75eecde02b8443fe029",
+    "requirementsSha256": "ca73a26fa20da2c535099ca1096fb483d180fb629f44bd5dc0a26df22d791026",
+    "contentPrinciples": [
+      {
+        "path": "references/handoff.md",
+        "sha256": "cdc14194decca5d27425d25014452a34d43d3c1d234f260ca298fd92f469fa2f"
+      },
+      {
+        "path": "skills/story-plan/SKILL.md",
+        "sha256": "bd7e67781256314a0a8cec25bdd5f28f6e7fce9be660c715a7a95be56c061e7a"
+      },
+      {
+        "path": "skills/story-plan/references/content-principles.md",
+        "sha256": "4e6c9b85315c69aea1270b5221ae237e8c3500109c1880cabcd0fdddddcc6e79"
+      },
+      {
+        "path": "skills/story-plan/references/storytelling-foundation.md",
+        "sha256": "095abe0434b4e11d7f9964010242de12c826474b49efa27507f235a81edec069"
+      },
+      {
+        "path": "skills/story-satire/SKILL.md",
+        "sha256": "d7e00563f77472ba3cd1e5be5e10b92f502ebe91fc8b3f09239f51c2af338376"
+      },
+      {
+        "path": "skills/story-write/SKILL.md",
+        "sha256": "2ebfb2d79079fb58e5f08599bcf28984fb958a0dbff97584671a5f7af5647afb"
+      }
+    ],
+    "outlineSha256": "1ec126cac14bba77f8e8d441bdcf6213a880173d70c3e025c069d11b76e39a20",
+    "sources": [
+      {
+        "path": "research/materials.md",
+        "sha256": "bb8538444fa9c76675b31ccd7e56c9ce3af54d78566b9d17ca0ba7c72f515291"
+      },
+      {
+        "path": "research/sources.md",
+        "sha256": "b1f63a7d0b272f9783d932566776b0fd22c0be7212b4472d710370d8bfe37ea1"
+      }
+    ]
+  },
+  "unresolved": [],
+  "issues": [],
+  "workJudgment": {
+    "conclusion": "当前文本中的嘲讽评论成立；通过依据是承诺落空、原回应与可辨假设反击的完整关系，不是仅有一句反语。",
+    "evidence": [
+      {
+        "location": "script.md:4 / s001",
+        "observation": "广告承诺与七点商业宣传片、电影未到同时出现；开场直接发生事。"
+      },
+      {
+        "location": "script.md:8 / s002",
+        "observation": "补足十二分钟和影城原话，为下一步回顶提供实际对象，没有重复讲意义。"
+      },
+      {
+        "location": "script.md:12 / s003",
+        "observation": "把同一改名、价格不变的话术迁到上班迟到、工资不变的假设，形成普通人能辨认的标准换位；到回应本身结束。"
+      }
+    ]
+  },
+  "factJudgment": {
+    "conclusion": "与所附 F1 相符，未发现事实越界。",
+    "evidence": [
+      "research/materials.md:5-9 支持虚构身份、宣传语、19:00至19:12放映记录和原回应。",
+      "s001 保留虚构影院身份；s002 没有宣称回应发出的分钟。",
+      "s003 以“下回”“试着”“打个商量”标明假设，没有新增真实事件、群体反应或经营动机。"
+    ]
+  },
+  "reviewNotes": [
+    "先读两案当前要求与正文形成初判，再读作者骨架、材料和现行规则；审核者未编写正文或规则。",
+    "文本中未见被当前要求排除的思考引导、解释笑点或意义总结。一个集中笑点不是实际好笑程度的证据。",
+    "通用规则曾将阻力写成必选关系；审查反馈后共同原则、策划、历史与方法参考已修正并复读。本记录绑定最终规则。"
+  ],
+  "limitations": [
+    "直接改稿审查，不是匿名首稿比较，不证明通用规则在所有题材实际生成均有效。",
+    "没有实际新音频、画面或用户反馈；文本与读法设计不能证明好笑、自然或完全脱离旧成片风格。",
+    "事实结论是与当前所附材料原文的比对；未重新联网考证历史版本或验证电影课程全文。"
+  ],
+  "downstreamStatus": "本轮授权停止于正文；passed 仅表示本次文本无未解决的实质缺陷，不宣称声音、视频或用户效果通过。",
+  "report": "../../independent-review.md"
+}

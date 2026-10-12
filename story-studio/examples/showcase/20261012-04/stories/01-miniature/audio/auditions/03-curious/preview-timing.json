@@ -1,0 +1,682 @@
+{
+  "version": 1,
+  "status": "preview",
+  "selectedIds": [
+    "s001",
+    "s002",
+    "s003",
+    "s004"
+  ],
+  "sourceTimeUnit": "seconds",
+  "scriptSha256": "285d494598cd7482864c2276cfd6fd6a898d632c143628cb76de08ff39f904ba",
+  "deliverySha256": "01ac42cef10ee3a582d15bbea67a04ae9e661aaee89aaf3a35667cd9dad8ad4d",
+  "voiceInputSha256": "f5f47379caf2a95c5f827effc860814a8870ba455b2675c83f49174fd4fb0f62",
+  "voice": {
+    "engine": "volc",
+    "speaker": "zh_male_yuanboxiaoshu_uranus_bigtts",
+    "speed": 0,
+    "resource": "seed-tts-2.0"
+  },
+  "audio": [
+    {
+      "audioId": "s001",
+      "sourceFile": "audio/auditions/03-curious/s001-a6b2bc6e20c157fec0273f45eeff2f2e06168c83717d2113bd9d5c237dbe91e4.wav",
+      "audioSha256": "916760e9467ff81cef96349b01862d2ec1d1622fe83f9e3a138c2dc93c54921a",
+      "durationSeconds": 4.248005,
+      "inputSha256": "a6b2bc6e20c157fec0273f45eeff2f2e06168c83717d2113bd9d5c237dbe91e4",
+      "source": "volc-tts"
+    },
+    {
+      "audioId": "s002",
+      "sourceFile": "audio/auditions/03-curious/s002-6b45a2f71b61e25cd484a8af2c2783944a5c0b296146c792c784012334d98416.wav",
+      "audioSha256": "0ca43816c2ea47599ea07b60709b3029e4d472ce1cdfd5dd7243f06581f7b886",
+      "durationSeconds": 6.264014,
+      "inputSha256": "6b45a2f71b61e25cd484a8af2c2783944a5c0b296146c792c784012334d98416",
+      "source": "volc-tts"
+    },
+    {
+      "audioId": "s003",
+      "sourceFile": "audio/auditions/03-curious/s003-82c092c72e883a81c2145f23dfbb9b56e4cbdf97e62114a090ffd0c4a8241f45.wav",
+      "audioSha256": "9ed4ee8c262ee9ce05321ea9dd6410c09e403afb3e42e7195f34eb05bdff6ba2",
+      "durationSeconds": 6.24,
+      "inputSha256": "82c092c72e883a81c2145f23dfbb9b56e4cbdf97e62114a090ffd0c4a8241f45",
+      "source": "volc-tts"
+    },
+    {
+      "audioId": "s004",
+      "sourceFile": "audio/auditions/03-curious/s004-2d209fb1ced6ba113a082660eb04d77a8caff8e3756d2c4283a3cb522a150e22.wav",
+      "audioSha256": "4f3876e4d0ad05b5c9762f09df6d29dc5dc0a2e94d5c15c0e0e99d187cb4bf23",
+      "durationSeconds": 6.84,
+      "inputSha256": "2d209fb1ced6ba113a082660eb04d77a8caff8e3756d2c4283a3cb522a150e22",
+      "source": "volc-tts"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s001",
+      "segmentId": "seg-01",
+      "audioId": "s001",
+      "startSeconds": 0,
+      "endSeconds": 4.248005,
+      "precision": "word",
+      "words": [
+        {
+          "text": "刀",
+          "startSeconds": 0.195,
+          "endSeconds": 0.395,
+          "confidence": 0.82612485
+        },
+        {
+          "text": "压",
+          "startSeconds": 0.395,
+          "endSeconds": 0.565,
+          "confidence": 0.85227203
+        },
+        {
+          "text": "进",
+          "startSeconds": 0.565,
+          "endSeconds": 0.695,
+          "confidence": 0.8061587
+        },
+        {
+          "text": "洋",
+          "startSeconds": 0.695,
+          "endSeconds": 0.875,
+          "confidence": 0.9476482
+        },
+        {
+          "text": "葱，",
+          "startSeconds": 0.875,
+          "endSeconds": 1.185,
+          "confidence": 0.9597251
+        },
+        {
+          "text": "外",
+          "startSeconds": 1.375,
+          "endSeconds": 1.505,
+          "confidence": 0.83571714
+        },
+        {
+          "text": "皮",
+          "startSeconds": 1.505,
+          "endSeconds": 1.685,
+          "confidence": 0.964949
+        },
+        {
+          "text": "还",
+          "startSeconds": 1.685,
+          "endSeconds": 1.795,
+          "confidence": 0.91725105
+        },
+        {
+          "text": "没",
+          "startSeconds": 1.795,
+          "endSeconds": 1.905,
+          "confidence": 0.96492034
+        },
+        {
+          "text": "破，",
+          "startSeconds": 1.905,
+          "endSeconds": 2.255,
+          "confidence": 0.9469658
+        },
+        {
+          "text": "里",
+          "startSeconds": 2.525,
+          "endSeconds": 2.745,
+          "confidence": 0.8861033
+        },
+        {
+          "text": "层",
+          "startSeconds": 2.745,
+          "endSeconds": 2.945,
+          "confidence": 0.9560887
+        },
+        {
+          "text": "已",
+          "startSeconds": 2.945,
+          "endSeconds": 3.025,
+          "confidence": 0.94360024
+        },
+        {
+          "text": "经",
+          "startSeconds": 3.025,
+          "endSeconds": 3.175,
+          "confidence": 0.9609776
+        },
+        {
+          "text": "被",
+          "startSeconds": 3.175,
+          "endSeconds": 3.315,
+          "confidence": 0.97075933
+        },
+        {
+          "text": "挤",
+          "startSeconds": 3.315,
+          "endSeconds": 3.475,
+          "confidence": 0.907246
+        },
+        {
+          "text": "变",
+          "startSeconds": 3.475,
+          "endSeconds": 3.615,
+          "confidence": 0.9236415
+        },
+        {
+          "text": "形。",
+          "startSeconds": 3.615,
+          "endSeconds": 3.955,
+          "confidence": 0.9701934
+        }
+      ]
+    },
+    {
+      "id": "s002",
+      "segmentId": "seg-01",
+      "audioId": "s002",
+      "startSeconds": 0,
+      "endSeconds": 6.264014,
+      "precision": "word",
+      "words": [
+        {
+          "text": "刀",
+          "startSeconds": 0.165,
+          "endSeconds": 0.305,
+          "confidence": 0.69959766
+        },
+        {
+          "text": "刃",
+          "startSeconds": 0.305,
+          "endSeconds": 0.495,
+          "confidence": 0.885907
+        },
+        {
+          "text": "穿",
+          "startSeconds": 0.495,
+          "endSeconds": 0.785,
+          "confidence": 0.8206121
+        },
+        {
+          "text": "过，",
+          "startSeconds": 0.785,
+          "endSeconds": 1.105,
+          "confidence": 0.94114715
+        },
+        {
+          "text": "先",
+          "startSeconds": 1.265,
+          "endSeconds": 1.575,
+          "confidence": 0.88391256
+        },
+        {
+          "text": "喷",
+          "startSeconds": 1.575,
+          "endSeconds": 1.765,
+          "confidence": 0.8315941
+        },
+        {
+          "text": "细",
+          "startSeconds": 1.765,
+          "endSeconds": 2.015,
+          "confidence": 0.9440229
+        },
+        {
+          "text": "雾，",
+          "startSeconds": 2.015,
+          "endSeconds": 2.325,
+          "confidence": 0.9679649
+        },
+        {
+          "text": "再",
+          "startSeconds": 2.405,
+          "endSeconds": 2.675,
+          "confidence": 0.91583234
+        },
+        {
+          "text": "甩",
+          "startSeconds": 2.675,
+          "endSeconds": 2.955,
+          "confidence": 0.9128391
+        },
+        {
+          "text": "出",
+          "startSeconds": 2.955,
+          "endSeconds": 3.155,
+          "confidence": 0.943571
+        },
+        {
+          "text": "液",
+          "startSeconds": 3.155,
+          "endSeconds": 3.325,
+          "confidence": 0.8313125
+        },
+        {
+          "text": "滴；",
+          "startSeconds": 3.325,
+          "endSeconds": 3.545,
+          "confidence": 0.8145911
+        },
+        {
+          "text": "高",
+          "startSeconds": 4.160042,
+          "endSeconds": 4.335042,
+          "confidence": 0.827546
+        },
+        {
+          "text": "速",
+          "startSeconds": 4.335042,
+          "endSeconds": 4.515042,
+          "confidence": 0.8794596
+        },
+        {
+          "text": "摄",
+          "startSeconds": 4.515042,
+          "endSeconds": 4.7750416,
+          "confidence": 0.91724724
+        },
+        {
+          "text": "影",
+          "startSeconds": 4.7750416,
+          "endSeconds": 4.9450417,
+          "confidence": 0.7936086
+        },
+        {
+          "text": "拍",
+          "startSeconds": 4.9850416,
+          "endSeconds": 5.185042,
+          "confidence": 0.92024195
+        },
+        {
+          "text": "到",
+          "startSeconds": 5.185042,
+          "endSeconds": 5.325042,
+          "confidence": 0.9654499
+        },
+        {
+          "text": "了",
+          "startSeconds": 5.325042,
+          "endSeconds": 5.4250417,
+          "confidence": 0.9762247
+        },
+        {
+          "text": "这",
+          "startSeconds": 5.4250417,
+          "endSeconds": 5.555042,
+          "confidence": 0.9624513
+        },
+        {
+          "text": "个",
+          "startSeconds": 5.555042,
+          "endSeconds": 5.6150417,
+          "confidence": 0.57765424
+        },
+        {
+          "text": "顺",
+          "startSeconds": 5.6150417,
+          "endSeconds": 5.805042,
+          "confidence": 0.75457525
+        },
+        {
+          "text": "序。",
+          "startSeconds": 5.805042,
+          "endSeconds": 5.875042,
+          "confidence": 0.6406131
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "segmentId": "seg-01",
+      "audioId": "s003",
+      "startSeconds": 0,
+      "endSeconds": 6.24,
+      "precision": "word",
+      "words": [
+        {
+          "text": "洋",
+          "startSeconds": 0.225,
+          "endSeconds": 0.345,
+          "confidence": 0.95064867
+        },
+        {
+          "text": "葱",
+          "startSeconds": 0.345,
+          "endSeconds": 0.515,
+          "confidence": 0.8937514
+        },
+        {
+          "text": "细",
+          "startSeconds": 0.515,
+          "endSeconds": 0.685,
+          "confidence": 0.9429704
+        },
+        {
+          "text": "胞",
+          "startSeconds": 0.685,
+          "endSeconds": 0.835,
+          "confidence": 0.91793585
+        },
+        {
+          "text": "破",
+          "startSeconds": 0.835,
+          "endSeconds": 1.045,
+          "confidence": 0.9513887
+        },
+        {
+          "text": "开",
+          "startSeconds": 1.045,
+          "endSeconds": 1.235,
+          "confidence": 0.95814717
+        },
+        {
+          "text": "后",
+          "startSeconds": 1.235,
+          "endSeconds": 1.455,
+          "confidence": 0.93705076
+        },
+        {
+          "text": "会",
+          "startSeconds": 1.455,
+          "endSeconds": 1.615,
+          "confidence": 0.94419515
+        },
+        {
+          "text": "释",
+          "startSeconds": 1.615,
+          "endSeconds": 1.805,
+          "confidence": 0.90734875
+        },
+        {
+          "text": "放",
+          "startSeconds": 1.805,
+          "endSeconds": 2.015,
+          "confidence": 0.8669672
+        },
+        {
+          "text": "含",
+          "startSeconds": 2.015,
+          "endSeconds": 2.275,
+          "confidence": 0.9233021
+        },
+        {
+          "text": "硫",
+          "startSeconds": 2.275,
+          "endSeconds": 2.435,
+          "confidence": 0.95872265
+        },
+        {
+          "text": "刺",
+          "startSeconds": 2.435,
+          "endSeconds": 2.615,
+          "confidence": 0.88211536
+        },
+        {
+          "text": "激",
+          "startSeconds": 2.615,
+          "endSeconds": 2.725,
+          "confidence": 0.85380936
+        },
+        {
+          "text": "物，",
+          "startSeconds": 2.725,
+          "endSeconds": 2.965,
+          "confidence": 0.94249576
+        },
+        {
+          "text": "雾",
+          "startSeconds": 3.4800417,
+          "endSeconds": 3.5650418,
+          "confidence": 0.65702933
+        },
+        {
+          "text": "滴",
+          "startSeconds": 3.5650418,
+          "endSeconds": 3.7050416,
+          "confidence": 0.730011
+        },
+        {
+          "text": "把",
+          "startSeconds": 3.7050416,
+          "endSeconds": 3.8450418,
+          "confidence": 0.9119538
+        },
+        {
+          "text": "它",
+          "startSeconds": 3.8450418,
+          "endSeconds": 3.9550416,
+          "confidence": 0.91718215
+        },
+        {
+          "text": "带",
+          "startSeconds": 3.9550416,
+          "endSeconds": 4.0950418,
+          "confidence": 0.93342316
+        },
+        {
+          "text": "到",
+          "startSeconds": 4.0950418,
+          "endSeconds": 4.2150416,
+          "confidence": 0.95090806
+        },
+        {
+          "text": "空",
+          "startSeconds": 4.2150416,
+          "endSeconds": 4.4250417,
+          "confidence": 0.97816277
+        },
+        {
+          "text": "气",
+          "startSeconds": 4.4250417,
+          "endSeconds": 4.625042,
+          "confidence": 0.96321094
+        },
+        {
+          "text": "里，",
+          "startSeconds": 4.625042,
+          "endSeconds": 4.825042,
+          "confidence": 0.88839734
+        },
+        {
+          "text": "眼",
+          "startSeconds": 5.0950418,
+          "endSeconds": 5.245042,
+          "confidence": 0.907998
+        },
+        {
+          "text": "睛",
+          "startSeconds": 5.245042,
+          "endSeconds": 5.3950415,
+          "confidence": 0.80557543
+        },
+        {
+          "text": "就",
+          "startSeconds": 5.3950415,
+          "endSeconds": 5.505042,
+          "confidence": 0.90993977
+        },
+        {
+          "text": "发",
+          "startSeconds": 5.505042,
+          "endSeconds": 5.6150417,
+          "confidence": 0.7380863
+        },
+        {
+          "text": "酸。",
+          "startSeconds": 5.6150417,
+          "endSeconds": 5.6750417,
+          "confidence": 0.24329905
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "segmentId": "seg-01",
+      "audioId": "s004",
+      "startSeconds": 0,
+      "endSeconds": 6.84,
+      "precision": "word",
+      "words": [
+        {
+          "text": "实",
+          "startSeconds": 0.145,
+          "endSeconds": 0.375,
+          "confidence": 0.80547905
+        },
+        {
+          "text": "验",
+          "startSeconds": 0.375,
+          "endSeconds": 0.525,
+          "confidence": 0.8244164
+        },
+        {
+          "text": "里，",
+          "startSeconds": 0.525,
+          "endSeconds": 0.795,
+          "confidence": 0.91434795
+        },
+        {
+          "text": "切",
+          "startSeconds": 1.115,
+          "endSeconds": 1.345,
+          "confidence": 0.83302605
+        },
+        {
+          "text": "得",
+          "startSeconds": 1.345,
+          "endSeconds": 1.435,
+          "confidence": 0.90842485
+        },
+        {
+          "text": "越",
+          "startSeconds": 1.435,
+          "endSeconds": 1.575,
+          "confidence": 0.95366114
+        },
+        {
+          "text": "快、",
+          "startSeconds": 1.575,
+          "endSeconds": 1.605,
+          "confidence": 0.19654545
+        },
+        {
+          "text": "刀",
+          "startSeconds": 2.085,
+          "endSeconds": 2.245,
+          "confidence": 0.89069414
+        },
+        {
+          "text": "刃",
+          "startSeconds": 2.245,
+          "endSeconds": 2.395,
+          "confidence": 0.87171984
+        },
+        {
+          "text": "越",
+          "startSeconds": 2.395,
+          "endSeconds": 2.545,
+          "confidence": 0.94461644
+        },
+        {
+          "text": "钝，",
+          "startSeconds": 2.545,
+          "endSeconds": 2.865,
+          "confidence": 0.89931434
+        },
+        {
+          "text": "喷",
+          "startSeconds": 3.095,
+          "endSeconds": 3.285,
+          "confidence": 0.8677656
+        },
+        {
+          "text": "出",
+          "startSeconds": 3.285,
+          "endSeconds": 3.455,
+          "confidence": 0.94386095
+        },
+        {
+          "text": "的",
+          "startSeconds": 3.455,
+          "endSeconds": 3.615,
+          "confidence": 0.91366106
+        },
+        {
+          "text": "液",
+          "startSeconds": 3.615,
+          "endSeconds": 3.745,
+          "confidence": 0.8832425
+        },
+        {
+          "text": "滴",
+          "startSeconds": 3.745,
+          "endSeconds": 3.845,
+          "confidence": 0.7515057
+        },
+        {
+          "text": "越",
+          "startSeconds": 3.845,
+          "endSeconds": 4.005,
+          "confidence": 0.93601793
+        },
+        {
+          "text": "多。",
+          "startSeconds": 4.005,
+          "endSeconds": 4.315,
+          "confidence": 0.97054
+        },
+        {
+          "text": "刀",
+          "startSeconds": 4.8150415,
+          "endSeconds": 4.975042,
+          "confidence": 0.7928455
+        },
+        {
+          "text": "磨",
+          "startSeconds": 4.975042,
+          "endSeconds": 5.1150417,
+          "confidence": 0.9304528
+        },
+        {
+          "text": "锋",
+          "startSeconds": 5.1150417,
+          "endSeconds": 5.325042,
+          "confidence": 0.94880205
+        },
+        {
+          "text": "利",
+          "startSeconds": 5.325042,
+          "endSeconds": 5.435042,
+          "confidence": 0.93632185
+        },
+        {
+          "text": "点，",
+          "startSeconds": 5.435042,
+          "endSeconds": 5.765042,
+          "confidence": 0.9029434
+        },
+        {
+          "text": "手",
+          "startSeconds": 5.8450418,
+          "endSeconds": 6.0650415,
+          "confidence": 0.9708196
+        },
+        {
+          "text": "别",
+          "startSeconds": 6.0650415,
+          "endSeconds": 6.1950417,
+          "confidence": 0.90477407
+        },
+        {
+          "text": "急。",
+          "startSeconds": 6.1950417,
+          "endSeconds": 6.5050416,
+          "confidence": 0.94830054
+        }
+      ]
+    }
+  ],
+  "precision": "word",
+  "listening": {
+    "status": "not-checked"
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "case": "01-cinema-satire",
+    "review": true,
+    "currentMedia": true
+  },
+  {
+    "case": "02-cinema-plain",
+    "review": true
+  },
+  {
+    "case": "03-hongmen-history",
+    "review": true
+  },
+  {
+    "case": "04-song-restaurant",
+    "review": true,
+    "currentMedia": true
+  },
+  {
+    "case": "05-hongmen-satire",
+    "review": true
+  },
+  {
+    "case": "06-queue-mechanism",
+    "review": true
+  }
+]

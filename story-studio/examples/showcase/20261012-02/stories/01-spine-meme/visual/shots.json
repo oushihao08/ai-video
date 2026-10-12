@@ -1,0 +1,50 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "timeStatus": "measured",
+  "units": [
+    {
+      "id": "u01",
+      "sentenceIds": ["s001"],
+      "newInformation": "“脊梁骨被踩断”是夸张比喻；测试报道指向三辆车的制动踏板支架底座",
+      "visualRole": "让巨大纸脊柱被压后折叠缩成小零件，再清楚展示三辆无品牌车辆与对应的零件示意"
+    },
+    {
+      "id": "u02",
+      "sentenceIds": ["s002"],
+      "newInformation": "品牌称测试工况特殊并承诺优化与升级；想象中的维修单故障栏已填，换件方案仍空着，客服预计月底确认",
+      "visualRole": "先出现品牌声明和未完成承诺，再按真实口播依次填入带有想象标记的维修单字段与预计日期"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "unitId": "u01",
+      "intent": "把夸张的脊梁骨比喻折回报道中的具体零件",
+      "startState": "桌面空着，等待“脊梁骨”比喻出现",
+      "change": "纸脊柱显形并被纸靴图形压折；说到“实际断的是”时收成小零件，随后三辆示意车与零件标记展开",
+      "endState": "三辆无品牌测试车与制动踏板支架底座图形清楚可辨，角落标注结构示意",
+      "syncIntent": "脊柱、压折、缩小、三车与零件放大分别由 s001 的“脊梁骨”“踩断”“实际断的是”“三辆”“制动踏板支架底座”真实词时间触发",
+      "scene": {"type": "custom", "data": {"key": "SpineDesk", "stage": 1}},
+      "startFrame": 0,
+      "durationFrames": 258
+    },
+    {
+      "id": "shot-02",
+      "unitId": "u02",
+      "intent": "把品牌声明与维修方案空栏摆在同一张桌面上",
+      "startState": "桌面上先出现带来源性质标签的品牌声明卡",
+      "change": "显示测试工况表述和承诺事项；“想象一张维修单”时切入标有想象/示意的纸单，再填故障栏、保留换件方案空栏，最后标出客服所说的预计月底确认",
+      "endState": "维修单的故障栏已填、换件方案栏仍为空，旁边停在“预计 / 月底确认”",
+      "syncIntent": "引用语、两条承诺、示意维修单、已填故障栏、空白方案栏和预计时间由 s002 对应短语的真实词时间触发",
+      "scene": {"type": "custom", "data": {"key": "SpineDesk", "stage": 2}},
+      "startFrame": 258,
+      "durationFrames": 464
+    }
+  ],
+  "audioPlacements": [
+    {"audioId": "s001", "sourceInSeconds": 0, "sourceOutSeconds": 8.256009, "timelineStartFrame": 0},
+    {"audioId": "s002", "sourceInSeconds": 0, "sourceOutSeconds": 14.664014, "timelineStartFrame": 258}
+  ]
+}

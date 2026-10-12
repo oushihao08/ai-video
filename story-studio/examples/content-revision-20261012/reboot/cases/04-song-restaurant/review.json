@@ -1,0 +1,97 @@
+{
+  "type": "independent_review",
+  "status": "passed",
+  "reviewedAt": "2026-10-12",
+  "reviewer": {
+    "kind": "isolated_agent",
+    "task": "/root/story_reboot_review",
+    "authoredScript": false
+  },
+  "scope": "当前正文、必要读法、当前要求、骨架与所附材料的独立文本审查；不含配音听查、画面验证或用户效果验收。",
+  "basis": {
+    "scriptSha256": "33b0f4fa1c8da8de5996f04f3474a7079e7618f2a219c6061b4d50f87094eb93",
+    "rulesSha256": "a58074e2ef956b6febd27d1e301d181450e52c321629d75eecde02b8443fe029",
+    "requirementsSha256": "37e56fec457830a27105165fbbd36af9ebb39c69ca84c1a45ecee63cd2840c17",
+    "contentPrinciples": [
+      {
+        "path": "references/handoff.md",
+        "sha256": "cdc14194decca5d27425d25014452a34d43d3c1d234f260ca298fd92f469fa2f"
+      },
+      {
+        "path": "skills/story-history/SKILL.md",
+        "sha256": "9226db8b5aec0875f72935b43d68225af8d9d50a875c5baa03de95a9f479a526"
+      },
+      {
+        "path": "skills/story-plan/SKILL.md",
+        "sha256": "bd7e67781256314a0a8cec25bdd5f28f6e7fce9be660c715a7a95be56c061e7a"
+      },
+      {
+        "path": "skills/story-plan/references/content-principles.md",
+        "sha256": "4e6c9b85315c69aea1270b5221ae237e8c3500109c1880cabcd0fdddddcc6e79"
+      },
+      {
+        "path": "skills/story-plan/references/storytelling-foundation.md",
+        "sha256": "095abe0434b4e11d7f9964010242de12c826474b49efa27507f235a81edec069"
+      },
+      {
+        "path": "skills/story-write/SKILL.md",
+        "sha256": "2ebfb2d79079fb58e5f08599bcf28984fb958a0dbff97584671a5f7af5647afb"
+      }
+    ],
+    "outlineSha256": "2ed18de0cc5c7c1670f80b42473da0536aaea1af0044f8e569688dacd94de7d5",
+    "sources": [
+      {
+        "path": "research/materials.md",
+        "sha256": "bb8538444fa9c76675b31ccd7e56c9ce3af54d78566b9d17ca0ba7c72f515291"
+      },
+      {
+        "path": "research/sources.md",
+        "sha256": "dc44b8305343acdcc24a7d75d1bf64f0b70f6a1c668e3f63fecf2a290f8206bf"
+      }
+    ]
+  },
+  "unresolved": [],
+  "issues": [],
+  "workJudgment": {
+    "conclusion": "当前文本中的一般上菜过程可以跟随；未退回史料意义讲解，未为剧情补造个人事故。",
+    "evidence": [
+      {
+        "location": "script.md:4 / s001",
+        "observation": "从三碗和右臂约二十碗的身体负载进入，就近保留孟元老追记身份。"
+      },
+      {
+        "location": "script.md:8-9 / s002-s003",
+        "observation": "回到各人的点单要求与唱报，铛头释义帮助跟随传话步骤。"
+      },
+      {
+        "location": "script.md:14 / s004",
+        "observation": "回到端碗，新增逐碗送下、冷热须对应的交付要求；不是仅再次陈述端了很多碗。"
+      },
+      {
+        "location": "script.md:15 / s005",
+        "observation": "条件式交代出错后的岗位代价，停止于具体处境，没有追加历史意义总结。"
+      }
+    ]
+  },
+  "factJudgment": {
+    "conclusion": "与所附 H2 原文相符，未发现史实扩写；这不是对所有宋代食店或某天事故的断言。",
+    "evidence": [
+      "research/materials.md:37-45 支持追记尺度、人人索唤不同、唱念报入厨房、铛头、左右手碗数和按要求送菜。",
+      "原文“一有差错，坐客白之主人，必加叱骂，或罚工价，甚者逐之”支持 s005 的条件处罚；没有宣称本次已经送错。",
+      "未添加箸纸或著案的具体解释、实名角色、心理、具体事故、工资数额或统一制度。"
+    ]
+  },
+  "reviewNotes": [
+    "先读两案当前要求与正文形成初判，再读作者骨架、材料和现行规则；审核者未编写正文或规则。",
+    "s001至s004的回环从负载转向送准要求；没有个人事件并不构成本案缺陷，材料只支持一般生活过程。",
+    "“每个人点的都不一样”和告店主、严重辞退的最初核实项均由 H2 所附原文支持，不记为造事。",
+    "通用规则曾将阻力写成必选关系；审查反馈后已修正并以无危机日常过程等静态反例复读。本记录绑定最终规则。"
+  ],
+  "limitations": [
+    "直接改稿审查，不是匿名首稿比较，不证明通用规则在所有题材实际生成均有效。",
+    "没有实际新音频、画面或用户反馈；文本与读法设计不能证明好笑、自然或完全脱离旧成片风格。",
+    "事实结论是与当前所附材料原文的比对；未重新联网考证历史版本或验证电影课程全文。"
+  ],
+  "downstreamStatus": "本轮授权停止于正文；passed 仅表示本次文本无未解决的实质缺陷，不宣称声音、视频或用户效果通过。",
+  "report": "../../independent-review.md"
+}

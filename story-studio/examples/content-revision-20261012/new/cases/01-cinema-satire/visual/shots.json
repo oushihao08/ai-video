@@ -1,0 +1,190 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "timeStatus": "measured-source-mapped",
+  "units": [
+    {
+      "id": "unit-01",
+      "sentenceIds": [
+        "s001",
+        "s002"
+      ],
+      "newInformation": "虚构影城承诺告别映前广告",
+      "visualRole": "影厅与票面承诺建立在同一空间"
+    },
+    {
+      "id": "unit-02",
+      "sentenceIds": [
+        "s003",
+        "s004"
+      ],
+      "newInformation": "19:00至19:12商业宣传占用放映前十二分钟",
+      "visualRole": "时钟走过十二分钟，银幕内容不变，正片才出现"
+    },
+    {
+      "id": "unit-03",
+      "sentenceIds": [
+        "s005",
+        "s006",
+        "s007",
+        "s008"
+      ],
+      "newInformation": "回应改用品牌合作内容的称呼，商业内容与十二分钟还在",
+      "visualRole": "名称替换，原时间带与银幕保持"
+    },
+    {
+      "id": "unit-04",
+      "sentenceIds": [
+        "s009",
+        "s010",
+        "s011"
+      ],
+      "newInformation": "票价与观影前内容是两件事，改名没有归还时间",
+      "visualRole": "金额轴与时间轴分开，十二分钟不缩短"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "unitId": "unit-01",
+      "startState": "空影厅与虚构标识",
+      "change": "票面出现宣传承诺",
+      "endState": "观众能看到票面写告别映前广告",
+      "syncIntent": "s001说明虚构身份后出现完整承诺；词级落点待实测",
+      "sourceRef": "F1 宣传语",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "CinemaSatire",
+          "phase": "promise"
+        }
+      },
+      "startFrame": 0,
+      "durationFrames": 326
+    },
+    {
+      "id": "shot-02",
+      "unitId": "unit-02",
+      "startState": "时钟19:00，银幕开始商业宣传",
+      "change": "分钟指针和十二分钟时间带推进",
+      "endState": "时钟19:12，正片才开始",
+      "syncIntent": "s003的19:00、十二分钟与s004的19:12各对齐可见状态",
+      "sourceRef": "F1 单场次放映记录",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "CinemaSatire",
+          "phase": "clock"
+        }
+      },
+      "startFrame": 326,
+      "durationFrames": 290
+    },
+    {
+      "id": "shot-03",
+      "unitId": "unit-03",
+      "startState": "商业宣传与十二分钟时间带保持",
+      "change": "银幕上方名称由广告换成品牌合作内容",
+      "endState": "名称改变，内容和占时保持",
+      "syncIntent": "s006说品牌合作内容时换标牌；s008说十二分钟时保留完整时间带",
+      "sourceRef": "F1 回应与作者评论",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "CinemaSatire",
+          "phase": "rename"
+        }
+      },
+      "startFrame": 616,
+      "durationFrames": 534
+    },
+    {
+      "id": "shot-04",
+      "unitId": "unit-04",
+      "startState": "票价与映前占时分列",
+      "change": "票价保持不变，十二分钟时间带也不缩短",
+      "endState": "两条量尺均保留，改名遮不住占时",
+      "syncIntent": "s009分开两种问题；s011在时间照占后短留白再落到改名",
+      "sourceRef": "F1 回应与作者评论",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "CinemaSatire",
+          "phase": "comparison"
+        }
+      },
+      "startFrame": 1150,
+      "durationFrames": 597
+    }
+  ],
+  "audioPlacements": [
+    {
+      "audioId": "s001",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.024014,
+      "timelineStartFrame": 0
+    },
+    {
+      "audioId": "s002",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 4.824014,
+      "timelineStartFrame": 181
+    },
+    {
+      "audioId": "s003",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.224014,
+      "timelineStartFrame": 326
+    },
+    {
+      "audioId": "s004",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 2.424014,
+      "timelineStartFrame": 543
+    },
+    {
+      "audioId": "s005",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 2.832018,
+      "timelineStartFrame": 616
+    },
+    {
+      "audioId": "s006",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 4.656009,
+      "timelineStartFrame": 701
+    },
+    {
+      "audioId": "s007",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 5.64,
+      "timelineStartFrame": 841
+    },
+    {
+      "audioId": "s008",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 4.656009,
+      "timelineStartFrame": 1010
+    },
+    {
+      "audioId": "s009",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.648005,
+      "timelineStartFrame": 1150
+    },
+    {
+      "audioId": "s010",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 3.864014,
+      "timelineStartFrame": 1349
+    },
+    {
+      "audioId": "s011",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 8.4,
+      "timelineStartFrame": 1465
+    }
+  ],
+  "timeNote": "Source WAV measured by ffprobe; each full sentence placed consecutively using round(seconds*fps), no added intersentence silence; final state held 1 second. Word cues from TTS response; no listening approval."
+}

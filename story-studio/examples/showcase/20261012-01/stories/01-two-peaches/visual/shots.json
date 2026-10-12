@@ -1,0 +1,19 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "timeStatus": "measured",
+  "units": [
+    {"id":"u01","sentenceIds":["s001"],"newInformation":"女儿扫码、父亲撑袋，结账时已开始分工","visualRole":"用同一结账台里的手部动作建立父女位置和袋子状态"},
+    {"id":"u02","sentenceIds":["s002"],"newInformation":"两颗桃子放在袋子顶层，父女分别扶住袋口与袋底一起提走","visualRole":"清楚表现先等袋子装好，再放桃子、托底、一起走出门的连贯动作"}
+  ],
+  "shots": [
+    {"id":"shot-01","unitId":"u01","intent":"父女在自助结账台分工","startState":"两人站在结账台前","change":"女儿扫描商品，父亲撑开袋子接","endState":"袋中已有商品，袋口仍打开","syncIntent":"扫码声和商品进入袋子的动作跟随口播，不展示品牌","scene":{"type":"custom","data":{"key":"Peaches","stage":1}},"startFrame":0,"durationFrames":204},
+    {"id":"shot-02","unitId":"u02","intent":"把两颗桃子安稳放好并一起提袋走向出口","startState":"女儿把两颗桃子托在手里，购物袋已有其他商品且仍打开","change":"等袋子装好后将桃子放在最上面；父亲托底、女儿握袋口，两人走向出口","endState":"两人带着购物袋来到出口附近","syncIntent":"先等到“袋子装好了”才放水果；袋内已有商品延续前镜；“走出了超市”开始时切到室外","scene":{"type":"custom","data":{"key":"Peaches","stage":2}},"startFrame":204,"durationFrames":360},
+    {"id":"shot-03","unitId":"u02","intent":"在“走出了超市”时切到门外，落清两人一起提袋离开","startState":"父女刚走到超市出口","change":"镜头切到室外，父女提着装有桃子和日用品的袋子继续走","endState":"父女已在超市门外并一起提袋前行","syncIntent":"画面切换与“走出了超市”口播同步；保留同一袋子里的桃子、叶菜和盒装商品","scene":{"type":"custom","data":{"key":"Peaches","stage":3}},"startFrame":564,"durationFrames":66}
+  ],
+  "audioPlacements": [
+    {"audioId":"s001","sourceInSeconds":0,"sourceOutSeconds":6.432018,"timelineStartFrame":0},
+    {"audioId":"s002","sourceInSeconds":0,"sourceOutSeconds":13.2,"timelineStartFrame":204}
+  ]
+}

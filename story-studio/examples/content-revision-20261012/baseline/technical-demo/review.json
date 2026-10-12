@@ -1,0 +1,40 @@
+{
+  "type": "independent_review",
+  "status": "passed",
+  "reviewedAt": "2026-10-12",
+  "scope": "修订版虚构播讲稿、骨架、要求、来源声明和声画设计；不含配音听查、渲染检查或用户验收。",
+  "basis": {
+    "scriptSha256": "5403f873e8e04d1c18d2623fa669f51da031ee420faedc9f5309bc6ee0a005fa",
+    "rulesSha256": "af894f2fb812fec6b309087b9c3d3cdb1c2dd91eb36376c36c3d394ee3d7d739",
+    "contentPrinciples": {
+      "path": "skills/story-plan/references/content-principles.md",
+      "sha256": "278f8fd1f8138a555323ef865abb93ef483e6f142c4ffce200b135c9e4293e25"
+    },
+    "outlineSha256": "bbfb91cfd99e3e6307ccea317a2f24c5a8a1680edd73eee35d903d37b6ad93a4",
+    "episodeSha256": "e14d7e148531e57873d68f801280ffa4768b7aba2c785fba2dce6b1fd2ec9e25",
+    "requirementsSha256": "a09321f8257899359203137259a0063644e64cac2c5e4872fa540a4648a00c49",
+    "visualSources": [
+      {
+        "path": "visual/direction.md",
+        "sha256": "06091d8ee5e64057d5fba9166abc59670bcacede60681cfd7f60298e4b0a3d2f"
+      },
+      {
+        "path": "visual/shots.json",
+        "digest": "visual-content-v1",
+        "sha256": "4b70dcd402ca75e5eeee80a7f9988fe380d28b4cbcd7cbd3a6526dba1fddfefa"
+      }
+    ],
+    "sources": [
+      {
+        "path": "research/sources.md",
+        "sha256": "82426afe7b2afc20cc48cb847f0ecab5e713f565d3e815a683c76317c4c40e51"
+      }
+    ]
+  },
+  "unresolved": [],
+  "reviewNotes": [
+    "审核发现并要求将虚构提示前置到[s001]；修订稿现已明确“先看一个完全虚构的例子”，后续[s005]、[s011]及地图标记持续说明非史实。",
+    "两段叙事顺序完整：渡口关闭、改走上游、东西两路受河流约束、在营地附近汇合；地图用于示意移动，不作为史实证据。",
+    "这是设计稿审核，不代表配音自然度、渲染输出或用户认可。"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "timeStatus": "measured-audio",
+  "units": [
+    {
+      "id": "u01",
+      "sentenceIds": [
+        "s001"
+      ],
+      "newInformation": "刀压下时外皮未破，内层先受压变形。",
+      "visualRole": "微缩剖面把外皮阻挡和内层挤压放在同一动作里。"
+    },
+    {
+      "id": "u02",
+      "sentenceIds": [
+        "s002"
+      ],
+      "newInformation": "切穿后细雾先喷出，较大液滴随后出现。",
+      "visualRole": "用颗粒尺寸与出场时序表现先雾后液滴。"
+    },
+    {
+      "id": "u03",
+      "sentenceIds": [
+        "s003"
+      ],
+      "newInformation": "含硫刺激物随空气扩散，液滴可作载体。",
+      "visualRole": "浅色雾滴与暖色刺激物并行移动，避免把两者画成同一物。"
+    },
+    {
+      "id": "u04",
+      "sentenceIds": [
+        "s004"
+      ],
+      "newInformation": "实验中更快或更钝会增加喷滴；锋利轻缓可减少。",
+      "visualRole": "先显出实验里的快切/钝刀，再切到慢/锋利的建议动作；同一句内拆镜，不漏掉两层意思。"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "unitId": "u01",
+      "intent": "让受压先于破裂被看见",
+      "startState": "洋葱切面完整，刀刃刚接触外皮",
+      "change": "刀继续下压，外圈暂时不裂，内层横向挤压",
+      "endState": "外皮仍完整，内部已变形",
+      "sourceRef": "research/materials.md",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "OnionMiniature",
+          "stage": 1,
+          "visualMode": "demonstration"
+        }
+      },
+      "startFrame": 0,
+      "durationFrames": 140
+    },
+    {
+      "id": "shot-02",
+      "unitId": "u02",
+      "intent": "动作明确分两拍：细雾先到，液滴后到",
+      "startState": "刀刃穿过表皮，组织即将断开",
+      "change": "细小雾点先喷出，稍后出现少量较大的液滴",
+      "endState": "液滴脱离切口向外飞",
+      "sourceRef": "research/materials.md",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "OnionMiniature",
+          "stage": 2,
+          "visualMode": "demonstration"
+        }
+      },
+      "startFrame": 140,
+      "durationFrames": 195
+    },
+    {
+      "id": "shot-03",
+      "unitId": "u03",
+      "intent": "说明刺激物与载体的关系，不混淆物质",
+      "startState": "雾点与液滴悬在切口附近",
+      "change": "暖色含硫刺激物示意粒子沿空气轨迹离开洋葱，并处在雾滴路径中",
+      "endState": "不同颜色的物质路径在空气中扩散",
+      "sourceRef": "research/materials.md",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "OnionMiniature",
+          "stage": 3,
+          "visualMode": "demonstration"
+        }
+      },
+      "startFrame": 335,
+      "durationFrames": 195
+    },
+    {
+      "id": "shot-04-fast-dull",
+      "unitId": "u04",
+      "intent": "把研究里的速度/刀刃变量落到生活动作",
+      "startState": "剖面前进入较快、较钝的一刀",
+      "change": "刀快速压下，切口喷出较多液滴",
+      "endState": "较快、较钝的实验变量与密集喷滴同框",
+      "sourceRef": "research/materials.md",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "OnionMiniature",
+          "stage": 4,
+          "visualMode": "demonstration"
+        }
+      },
+      "durationFrames": 143,
+      "startFrame": 530
+    },
+    {
+      "id": "shot-05-slow-sharp",
+      "unitId": "u04",
+      "startState": "同一切面转到锋利刀刃，动作尚未开始",
+      "change": "刀刃轻缓通过，喷滴减少，最后停在稳定切口",
+      "endState": "锋利、轻缓的切割动作留下简短收束空间",
+      "durationFrames": 82,
+      "sourceRef": "research/materials.md",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "OnionMiniature",
+          "stage": 5,
+          "visualMode": "demonstration"
+        }
+      },
+      "startFrame": 673
+    }
+  ],
+  "audioPlacements": [
+    {
+      "audioId": "s001",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 4.44,
+      "timelineStartFrame": 0
+    },
+    {
+      "audioId": "s002",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.264014,
+      "timelineStartFrame": 140
+    },
+    {
+      "audioId": "s003",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.264014,
+      "timelineStartFrame": 335
+    },
+    {
+      "audioId": "s004",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.84,
+      "timelineStartFrame": 530
+    }
+  ]
+}

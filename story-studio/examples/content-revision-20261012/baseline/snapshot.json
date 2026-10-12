@@ -1,0 +1,37 @@
+{
+  "purpose": "旧规则与历史输出快照；不代表可用于新正式配音的审核凭据",
+  "files": [
+    {
+      "path": "skills/story-voice/SKILL.md",
+      "sha256": "982431ebe6f850028e64a5a6240a4f62b2437dbc270946400daf5f7f98d87ca9"
+    },
+    {
+      "path": "skills/story-review/SKILL.md",
+      "sha256": "af894f2fb812fec6b309087b9c3d3cdb1c2dd91eb36376c36c3d394ee3d7d739"
+    },
+    {
+      "path": "skills/story-plan/SKILL.md",
+      "sha256": "22f87eae222afee401afd6675a3bff854e1f3bbb9d8cc98698b2ca41ed2f5174"
+    },
+    {
+      "path": "skills/story-video/SKILL.md",
+      "sha256": "ad75f0f343ca70ce4014cc78e2b556ce3d534d6f610db4c154a636e5134a1b4c"
+    },
+    {
+      "path": "skills/story-write/SKILL.md",
+      "sha256": "81cc18065b16162404c33562fd0a14f19d07a50140c9e4018b23015f1e024c5e"
+    },
+    {
+      "path": "skills/story-produce/SKILL.md",
+      "sha256": "bb5f14f2fc50bf173f82c897285aadccb74ace35afc5bbdd42f862243698d355"
+    },
+    {
+      "path": "skills/story-plan/references/content-principles.md",
+      "sha256": "278f8fd1f8138a555323ef865abb93ef483e6f142c4ffce200b135c9e4293e25"
+    },
+    {
+      "path": "references/handoff.md",
+      "sha256": "5e00425f1b4d922c636d285ae6c1782b4f3a2e8976d673731b93e2b15f38c549"
+    }
+  ]
+}

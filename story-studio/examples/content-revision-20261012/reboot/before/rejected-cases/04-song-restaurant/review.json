@@ -1,0 +1,95 @@
+{
+  "type": "independent_review",
+  "status": "passed",
+  "reviewedAt": "2026-10-12",
+  "reviewer": "独立审核子代理；与作者隔离，先完成匿名正文判断，后读取现行规则与修订稿",
+  "scope": "最终正文、要求、实际固定材料、来源关联、骨架及 direction/shots/scenes 的声画信息设计；不含真实声音或媒体播放审核。",
+  "basis": {
+    "scriptSha256": "91edb018bbbdebe5b5d4c21192f7d6ad17786ea300d90a87db55b207fceb9fe6",
+    "rulesSha256": "46869b9a72f844fe5fc00b67d95b8f761dc64c6b72ef57b8fe464ce0153b6636",
+    "requirementsSha256": "dea9b36e5376bc1a208b76874814e2710593db2833cb2da1cc4be2453619ad47",
+    "contentPrinciples": [
+      {
+        "path": "references/handoff.md",
+        "sha256": "eac2b2126ee0cbf533a42a5b4d4cea747426f5a3cd9d4e6c2245070f26303278"
+      },
+      {
+        "path": "skills/story-history/SKILL.md",
+        "sha256": "06d91adc896d62af25a7f5fead9469108a0b18e9dbe0d15c73b57882f2d09150"
+      },
+      {
+        "path": "skills/story-plan/SKILL.md",
+        "sha256": "f0390d45472dc74cda769a02a73c51b8b0884e844575134119ddb22f7d6753b5"
+      },
+      {
+        "path": "skills/story-plan/references/content-principles.md",
+        "sha256": "d45f38284d93c28a4a461f2345dae7c4b56b034d934bb7aac766a8d147cdac97"
+      },
+      {
+        "path": "skills/story-write/SKILL.md",
+        "sha256": "094d917dc4b22f664aa2f6c3de09e44a9043d911634d069d4e65cf05bd21369f"
+      }
+    ],
+    "outlineSha256": "e334ffa8f33ec78eeb46948b94c828cc8bfbfff36778505a487cae1f32fb1583",
+    "sources": [
+      {
+        "path": "research/materials.md",
+        "sha256": "bb8538444fa9c76675b31ccd7e56c9ce3af54d78566b9d17ca0ba7c72f515291"
+      },
+      {
+        "path": "research/sources.md",
+        "sha256": "eb6fc00f95228988bb45c1172c0e1454384e9f3fbc56d7888b8d25c3dd37bfde"
+      }
+    ],
+    "visualSources": [
+      {
+        "path": "visual/direction.md",
+        "sha256": "45eb36b83c12973918e892ee33f773e3bffdbc3a6b8337c3929517744c099e09"
+      },
+      {
+        "path": "visual/scenes/index.jsx",
+        "sha256": "6caf11fd691801c45b9caf95b48aef5c6c83b3507499cf9aa6d49a0ffee8ada7"
+      },
+      {
+        "path": "visual/shots.json",
+        "digest": "visual-content-v1",
+        "sha256": "96da2cd63dd1edab725840ce781bb2250f2e8ffabb56a64c6aa1489ff5d7120a"
+      }
+    ]
+  },
+  "unresolved": [],
+  "issues": [],
+  "reviewNotes": [
+    "已重新阅读修订稿。s002 不再断言同一道吃食；s005 已删记下要求的具体动作，原盲评指出的局部材料边界问题已解除。",
+    "s001 明示追记来源；s002–s007 用需求不同、唱报、左右负载和送准呈现生活过程，s008–s010 收在材料支持的差错后果。",
+    "视觉以追记流程示意和匿名符号呈现要求流转，没有补画纸笔记单；错配与惩罚明确作为可能后果示意，不冒充一次真实处罚故事。",
+    "场景源码确有三碗和约二十碗两组图形、不同要求的对应路径及可能后果标识；实际图形可数性、遮挡和词时间同步仍由媒体阶段验证。",
+    "构图源码复核通过：对照初审时的源码与当前最终源码：右臂约20碗标签由 x835/y290 移至 x930/y315，移开碗形负载，在厨房右侧空白区域显示；未改厨房、三碗与二十碗两组图形、颜色对应路径及惩罚提示。 所有cue短语、数量和出现条件未变，未重新加入记单动作；冷热/做法对应及错配示意的身份仍清楚。未增加视觉事实。实际成片可读性待重渲染后检查，本次未进行声音听查。"
+  ],
+  "limitations": [
+    "只核对给定固定材料，没有重新访问史料网页或补充考证。",
+    "估时不是配音实测，表达标注与同步设计不是实际表演或连续播放。",
+    "无用户内容认可、真实声音听查或最终媒体验收结论。"
+  ],
+  "rechecks": [
+    {
+      "reviewedAt": "2026-10-12",
+      "type": "composition_source_recheck",
+      "status": "passed",
+      "scope": "实际构图差异与最终场景源码；只复核影响可读设计的坐标调整，不是实际重渲染或声音听查。",
+      "path": "visual/scenes/index.jsx",
+      "previousSha256": "25d940fd6449ca7a05bc4cbaf03a4b29d93edc43fdc31e706c37ebc04eaae758",
+      "currentSha256": "6caf11fd691801c45b9caf95b48aef5c6c83b3507499cf9aa6d49a0ffee8ada7",
+      "findings": [
+        "对照初审时的源码与当前最终源码：右臂约20碗标签由 x835/y290 移至 x930/y315，移开碗形负载，在厨房右侧空白区域显示；未改厨房、三碗与二十碗两组图形、颜色对应路径及惩罚提示。",
+        "所有cue短语、数量和出现条件未变，未重新加入记单动作；冷热/做法对应及错配示意的身份仍清楚。未增加视觉事实。"
+      ],
+      "unchangedBasis": "正文、规则、要求、内容原则与专项、来源、骨架、direction和shots的visual-content-v1摘要均与初审一致。shots加入实测源帧映射是时间变化。",
+      "unresolved": [],
+      "limitations": [
+        "没有观看调整后的实际重渲染，不能据源码声明跨框或遮挡在成片已修复。",
+        "没有听查配音，也没有新增字词同步、连续播放或用户接受结论。"
+      ]
+    }
+  ]
+}

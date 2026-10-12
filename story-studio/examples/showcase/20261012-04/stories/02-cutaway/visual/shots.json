@@ -1,0 +1,136 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "timeStatus": "measured-audio",
+  "units": [
+    {
+      "id": "unit-01",
+      "sentenceIds": [
+        "s001"
+      ],
+      "newInformation": "刀先压住完整外皮，里层组织已经受压变形。",
+      "visualRole": "口播交代动作；显微剖面让完整外皮与被压弯的内层同时可见。"
+    },
+    {
+      "id": "unit-02",
+      "sentenceIds": [
+        "s002"
+      ],
+      "newInformation": "刀穿过后，高速细雾先出现，较慢的液滴随后形成。",
+      "visualRole": "不靠文字卡解释先后；用细雾的快速扩散和液滴延迟、慢速飞行表现顺序。"
+    },
+    {
+      "id": "unit-03",
+      "sentenceIds": [
+        "s003"
+      ],
+      "newInformation": "细胞破裂释放含硫刺激物，气溶胶把它带到空气中并造成眼部刺激。",
+      "visualRole": "冷色可见液滴与暖色扩散场分层运动，明确刺激物不等于水滴，不展示虚构分子结构。"
+    },
+    {
+      "id": "unit-04",
+      "sentenceIds": [
+        "s004"
+      ],
+      "newInformation": "实验观察到较快切割、较钝刀刃会增加喷滴；结尾给出锋利、轻缓的简单建议。",
+      "visualRole": "以同一剖面做定性动态对照；粒子密度只表示方向，不假装论文给出了画面中的具体数量。"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01-pressure",
+      "unitId": "unit-01",
+      "startState": "刀尖从画面上方靠近完整洋葱外皮，内层组织尚未明显变形。",
+      "change": "刀刃向下压；外皮轮廓保持完整，内层弧片受力下弯并向两侧挤开。",
+      "endState": "刀刃抵住外皮，内层已明显变形但外皮仍未破。",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "OnionCutaway",
+          "phase": "pressure",
+          "evidenceStatus": "illustration"
+        }
+      },
+      "startFrame": 0,
+      "durationFrames": 140
+    },
+    {
+      "id": "shot-02-burst",
+      "unitId": "unit-02",
+      "startState": "刀尖压在外皮处，组织承压。",
+      "change": "刀刃穿入剖面；切口先迅速推出许多微小雾滴，稍后较大的液滴才逐颗飞离。",
+      "endState": "细雾已扩散一段距离，液滴仍以较慢轨迹运动。",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "OnionCutaway",
+          "phase": "burst",
+          "evidenceStatus": "illustration"
+        }
+      },
+      "startFrame": 140,
+      "durationFrames": 195
+    },
+    {
+      "id": "shot-03-chemistry",
+      "unitId": "unit-03",
+      "startState": "切口处有细雾和液滴向外运动。",
+      "change": "琥珀色的柔化扩散场沿气溶胶路径向外延展，蓝白液滴仍作为独立可见层运动；眼部示意进入扩散路径。",
+      "endState": "扩散场抵达眼部示意，出现刺激感标记；没有人物流泪或分子模型。",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "OnionCutaway",
+          "phase": "chemistry",
+          "evidenceStatus": "principle-illustration"
+        }
+      },
+      "startFrame": 335,
+      "durationFrames": 195
+    },
+    {
+      "id": "shot-04-comparison",
+      "unitId": "unit-04",
+      "startState": "两块相同尺度的洋葱剖面进入画面，刀刃尚未切下。",
+      "change": "较快、较钝的一侧出现较密喷滴；轻缓、锋利的一侧喷滴较少，随后刀刃和组织的运动都停下。",
+      "endState": "两种喷溅的定性差异同屏可见，留出简短收束空间。",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "OnionCutaway",
+          "phase": "comparison",
+          "evidenceStatus": "illustration"
+        }
+      },
+      "startFrame": 530,
+      "durationFrames": 225
+    }
+  ],
+  "audioPlacements": [
+    {
+      "audioId": "s001",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 4.44,
+      "timelineStartFrame": 0
+    },
+    {
+      "audioId": "s002",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.264014,
+      "timelineStartFrame": 140
+    },
+    {
+      "audioId": "s003",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.264014,
+      "timelineStartFrame": 335
+    },
+    {
+      "audioId": "s004",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.84,
+      "timelineStartFrame": 530
+    }
+  ]
+}

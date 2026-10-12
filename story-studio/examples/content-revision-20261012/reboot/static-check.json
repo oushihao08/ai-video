@@ -1,0 +1,121 @@
+{
+  "scope": "规则快照、旧产物与新材料副本的静态核对；不判断内容效果",
+  "rules": [
+    {
+      "path": "skills/story-voice/SKILL.md",
+      "snapshotMatches": true,
+      "currentChanged": true
+    },
+    {
+      "path": "skills/story-review/SKILL.md",
+      "snapshotMatches": true,
+      "currentChanged": true
+    },
+    {
+      "path": "skills/story-plan/SKILL.md",
+      "snapshotMatches": true,
+      "currentChanged": true
+    },
+    {
+      "path": "skills/story-satire/SKILL.md",
+      "snapshotMatches": true,
+      "currentChanged": true
+    },
+    {
+      "path": "skills/story-history/SKILL.md",
+      "snapshotMatches": true,
+      "currentChanged": true
+    },
+    {
+      "path": "skills/story-video/SKILL.md",
+      "snapshotMatches": true,
+      "currentChanged": true
+    },
+    {
+      "path": "skills/story-write/SKILL.md",
+      "snapshotMatches": true,
+      "currentChanged": true
+    },
+    {
+      "path": "skills/story-produce/SKILL.md",
+      "snapshotMatches": true,
+      "currentChanged": true
+    },
+    {
+      "path": "skills/story-plan/references/content-principles.md",
+      "snapshotMatches": true,
+      "currentChanged": true
+    },
+    {
+      "path": "references/handoff.md",
+      "snapshotMatches": true,
+      "currentChanged": true
+    }
+  ],
+  "cases": {
+    "01-cinema-satire": {
+      "oldScriptUnchanged": true,
+      "oldReviewUnchanged": true,
+      "mp4Sha256": "2428db25399ccb0e0e642780e827e9c83fb0745050de9c296e3a60c96ce94bea",
+      "oldMp4Unchanged": true,
+      "materialCopyMatches": true
+    },
+    "04-song-restaurant": {
+      "oldScriptUnchanged": true,
+      "oldReviewUnchanged": true,
+      "mp4Sha256": "d27449bce245aeffe57751970c82c56f88942470e7e8182d978a8afa1ecc8b3d",
+      "oldMp4Unchanged": true,
+      "materialCopyMatches": true
+    }
+  },
+  "installedSkills": [
+    {
+      "name": "story-plan",
+      "installedLink": true,
+      "pointsToProject": true,
+      "characters": 1052
+    },
+    {
+      "name": "story-write",
+      "installedLink": true,
+      "pointsToProject": true,
+      "characters": 1241
+    },
+    {
+      "name": "story-review",
+      "installedLink": true,
+      "pointsToProject": true,
+      "characters": 1691
+    },
+    {
+      "name": "story-satire",
+      "installedLink": true,
+      "pointsToProject": true,
+      "characters": 1247
+    },
+    {
+      "name": "story-history",
+      "installedLink": true,
+      "pointsToProject": true,
+      "characters": 1369
+    },
+    {
+      "name": "story-produce",
+      "installedLink": true,
+      "pointsToProject": true,
+      "characters": 2075
+    },
+    {
+      "name": "story-voice",
+      "installedLink": true,
+      "pointsToProject": true,
+      "characters": 2158
+    },
+    {
+      "name": "story-video",
+      "installedLink": true,
+      "pointsToProject": true,
+      "characters": 1991
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "case": "01-cinema-satire",
+    "version": "baseline",
+    "packetUnchanged": true,
+    "firstDraftUnchanged": true
+  },
+  {
+    "case": "01-cinema-satire",
+    "version": "new",
+    "packetUnchanged": true,
+    "firstDraftUnchanged": true
+  },
+  {
+    "case": "02-cinema-plain",
+    "version": "new",
+    "packetUnchanged": true,
+    "firstDraftUnchanged": true
+  },
+  {
+    "case": "02-cinema-plain",
+    "version": "baseline",
+    "packetUnchanged": true,
+    "firstDraftUnchanged": true
+  },
+  {
+    "case": "03-hongmen-history",
+    "version": "new",
+    "packetUnchanged": true,
+    "firstDraftUnchanged": true
+  },
+  {
+    "case": "03-hongmen-history",
+    "version": "baseline",
+    "packetUnchanged": true,
+    "firstDraftUnchanged": true
+  },
+  {
+    "case": "04-song-restaurant",
+    "version": "baseline",
+    "packetUnchanged": true,
+    "firstDraftUnchanged": true
+  },
+  {
+    "case": "04-song-restaurant",
+    "version": "new",
+    "packetUnchanged": true,
+    "firstDraftUnchanged": true
+  },
+  {
+    "case": "05-hongmen-satire",
+    "version": "new",
+    "packetUnchanged": true,
+    "firstDraftUnchanged": true
+  },
+  {
+    "case": "05-hongmen-satire",
+    "version": "baseline",
+    "packetUnchanged": true,
+    "firstDraftUnchanged": true
+  },
+  {
+    "case": "06-queue-mechanism",
+    "version": "new",
+    "packetUnchanged": true,
+    "firstDraftUnchanged": true
+  },
+  {
+    "case": "06-queue-mechanism",
+    "version": "baseline",
+    "packetUnchanged": true,
+    "firstDraftUnchanged": true
+  }
+]

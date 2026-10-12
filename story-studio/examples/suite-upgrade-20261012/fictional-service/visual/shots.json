@@ -1,0 +1,108 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "timeStatus": "measured",
+  "units": [
+    {
+      "id": "u01",
+      "sentenceIds": [
+        "s001"
+      ],
+      "newInformation": "建立顾客已付钱且自行制茶的期待",
+      "visualRole": "从柜台全景进入制茶机，杯子接茶和封口"
+    },
+    {
+      "id": "u02",
+      "sentenceIds": [
+        "s002"
+      ],
+      "newInformation": "依次出现的额外工作来自店内系统",
+      "visualRole": "提示与动作衔接，手里的饮料成为还没带走的东西"
+    },
+    {
+      "id": "u03",
+      "sentenceIds": [
+        "s003"
+      ],
+      "newInformation": "把刚做过的工作回顶成排班",
+      "visualRole": "声音给回应，画面给回头、甩水及落点后的余味"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "unitId": "u01",
+      "intent": "进店做饮料",
+      "startState": "小林在柜台前",
+      "change": "接茶、加奶、封口，拿起饮料",
+      "endState": "准备离开",
+      "syncIntent": "使用本期实测词级cue；关键提示和日历不得提前出现",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "TeaShop",
+          "stage": 1
+        }
+      },
+      "startFrame": 0,
+      "durationFrames": 245
+    },
+    {
+      "id": "shot-02",
+      "unitId": "u02",
+      "intent": "系统追加清理",
+      "startState": "小林拿起饮料",
+      "change": "屏幕先提示倒茶渣，再提示冲洗；他拐向水池",
+      "endState": "冲洗滤网",
+      "syncIntent": "使用本期实测词级cue；关键提示和日历不得提前出现",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "TeaShop",
+          "stage": 2
+        }
+      },
+      "startFrame": 245,
+      "durationFrames": 364
+    },
+    {
+      "id": "shot-03",
+      "unitId": "u03",
+      "intent": "出口回顶",
+      "startState": "小林走向出口",
+      "change": "欢迎语后回头甩水，讲完回应才出现假想日历",
+      "endState": "停在湿手与日历",
+      "syncIntent": "使用本期实测词级cue；关键提示和日历不得提前出现",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "TeaShop",
+          "stage": 3
+        }
+      },
+      "startFrame": 609,
+      "durationFrames": 281
+    }
+  ],
+  "audioPlacements": [
+    {
+      "audioId": "s001",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.464014,
+      "timelineStartFrame": 9
+    },
+    {
+      "audioId": "s002",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 10.824014,
+      "timelineStartFrame": 254
+    },
+    {
+      "audioId": "s003",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.464014,
+      "timelineStartFrame": 618
+    }
+  ]
+}

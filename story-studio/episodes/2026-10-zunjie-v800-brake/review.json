@@ -1,0 +1,45 @@
+{
+  "type": "independent_review",
+  "status": "passed",
+  "reviewedAt": "2026-10-12",
+  "scope": "修订版播讲稿、事实来源、故事骨架、视听方向、分镜和自定义场景设计；并静态抽查成片关键帧（10.9–81.7秒的事件锚点）；不含成片连续播放和人工听音。",
+  "basis": {
+    "scriptSha256": "ebc229c6b6bb285f5558007bb00f45b6fe550709298d6c6d5ca3a624c57a71d1",
+    "rulesSha256": "af894f2fb812fec6b309087b9c3d3cdb1c2dd91eb36376c36c3d394ee3d7d739",
+    "contentPrinciples": {
+      "path": "skills/story-plan/references/content-principles.md",
+      "sha256": "278f8fd1f8138a555323ef865abb93ef483e6f142c4ffce200b135c9e4293e25"
+    },
+    "outlineSha256": "10a962c89ec8479ce41b5b52480bc2507accf8ac8a4960d30c57728c25b783c1",
+    "episodeSha256": "7c6674bf180730d2fcb3d8b34b45cfaa476e0e0be3c21bed6fd5a1f1879cf9dc",
+    "visualSources": [
+      {
+        "path": "visual/direction.md",
+        "sha256": "cf1ff589fa6d4039471819442f79bd87348bb0ad1bc75f573c2ca46c256207c9"
+      },
+      {
+        "path": "visual/scenes/index.jsx",
+        "sha256": "66b089f1aa36cd57ae765aeea6b42fb1eff13b735f276bd7107ce95fea7f95d1"
+      },
+      {
+        "path": "visual/shots.json",
+        "sha256": "9cc45fbfd6aa03985227d3c23667185058a00604e083fa04b8737209d39e3b42",
+        "digest": "visual-content-v1"
+      }
+    ],
+    "sources": [
+      {
+        "path": "research/sources.md",
+        "sha256": "2497e88a7d1659d606873338ffb228377f8438efcf14ca1640765cb41f6eda5f"
+      }
+    ]
+  },
+  "unresolved": [],
+  "reviewNotes": [
+    "测试日期、视频发布时间、38.44米与约140米数据均有来源支持；测试结果与监管鉴定边界清楚。",
+    "将尊界回应标为品牌陈述；免费升级措辞保持为“提供免费升级选择”，未暗示升级已完成。",
+    "开场调侃明确属于本期叙述；华为与江淮的合作关系已交代。",
+    "修正了距离条比例、时间线句段映射和过期句段编号；本记录不代表配音或成片验收。",
+    "独立复核最新场景实现与关键帧：支架落点、距离数字、品牌升级、时间线和结尾检查项按口播锚点出现，未发现遮挡或材料性问题；连续播放与真人听音未纳入本次复核。"
+  ]
+}

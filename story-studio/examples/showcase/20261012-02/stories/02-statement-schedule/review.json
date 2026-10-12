@@ -1,0 +1,33 @@
+{
+  "type": "independent_review",
+  "status": "passed",
+  "reviewer": "/root/review_v800_scripts",
+  "reviewScope": "独立审查两篇短正文；先读 requirements.md、script.md 与材料，后按作者意见修订当前正文。未审音频与画面；允许进入短配音和动画预演。",
+  "basis": {
+    "scriptSha256": "bf39a28827a4a80cb47af2b4b44a42cb55cbde1fac0a20681117a1c2d63ca6d4",
+    "rulesSha256": "58408b805fbe6fa23136c84e5a8fa2804c7977ecb8e755fd82908ad7f416cb07",
+    "requirementsSha256": "520ef335564482bcde894232c2d8bca4a05ecee55e21c05e48edc7a6acb3e14c",
+    "contentPrinciples": [
+      { "path": "skills/story-plan/references/content-principles.md", "sha256": "ffd469e52564140730db79215a73c06c4565eba8d2ffd2bfeb8c81fde3cf481e" },
+      { "path": "skills/story-plan/references/storytelling-foundation.md", "sha256": "919a93699ed5c8c4238395e7f28d0addb81273e76eae87acb9681c30d6217d61" },
+      { "path": "skills/story-satire/SKILL.md", "sha256": "41a61b28cb253b4e2e647f63ff1811dd22c2cc01fe5965ff5c63fd396805eff8" }
+    ],
+    "sources": [
+      { "path": "research/materials.md", "sha256": "b28057ba974b6592390751e2ed14e377b6f56d7eaf0e3fc2a459d03db364ea30" }
+    ]
+  },
+  "workJudgment": {
+    "attention": "具体的测试结果先出现，观众随即听到尊界回应和已交付用户升级承诺。",
+    "progression": "客服转述的预计时间填补进度；假想维修单最后留下换件方案一格。",
+    "payoff": "故障现象已知、升级细节待定的具体信息差，通过空白栏显形。",
+    "assessment": "当前稿适合短配音和动画预演，建议平读并由视觉让空白栏一眼成立；不能据此宣称已好笑。"
+  },
+  "factJudgment": "测试现象、尊界声明的准确原词与已交付用户升级范围、客服预计时间线均与所列材料一致；假想维修单已在正文中明示。",
+  "issues": [],
+  "unresolved": [],
+  "limitations": [
+    "只通过正文进入低成本声画预演；不证明最终笑点、配音自然、画面清楚或用户接受。",
+    "测试专业性和技术根因仍未独立定论；方案及时间为客服预计安排。"
+  ],
+  "downstream": "可以生成真实短配音和粗动画；根据实听和关键帧判断是否重写或改演法。"
+}

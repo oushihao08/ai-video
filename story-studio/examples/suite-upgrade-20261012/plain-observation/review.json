@@ -1,0 +1,55 @@
+{
+  "type": "independent_review",
+  "status": "passed",
+  "reviewer": "/root/new_examples_review",
+  "reviewScope": "独立正文文本审核；先读requirements.md与script.md形成判断，再读outline.md、research/materials.md及当前规则。未审声音或画面。",
+  "basis": {
+    "scriptSha256": "540b85b1325f748fa94c90d3d2528efaf75c9be470a707be7b7dfcad5f6fbe79",
+    "rulesSha256": "58408b805fbe6fa23136c84e5a8fa2804c7977ecb8e755fd82908ad7f416cb07",
+    "requirementsSha256": "4b899ef1b071ecd5995359b91bb8294cb3dc3318c8ca2b888a27234ecea552ef",
+    "outlineSha256": "2a8c0ed48d0044fd1fe14127c8a2ba707d556d8d7cb395c8523204e61d30ea8c",
+    "contentPrinciples": [
+      {
+        "path": "references/handoff.md",
+        "sha256": "c2efd86f8044732fd10e7e670e69fb0d103727fba6d1178c33aef0e50cc3ff1b"
+      },
+      {
+        "path": "skills/story-plan/SKILL.md",
+        "sha256": "9d2cca18df025ddd3c79228ef0ba08b3fd51f4125f80ff5d7e7508549cacfc03"
+      },
+      {
+        "path": "skills/story-plan/references/content-principles.md",
+        "sha256": "ffd469e52564140730db79215a73c06c4565eba8d2ffd2bfeb8c81fde3cf481e"
+      },
+      {
+        "path": "skills/story-plan/references/storytelling-foundation.md",
+        "sha256": "919a93699ed5c8c4238395e7f28d0addb81273e76eae87acb9681c30d6217d61"
+      },
+      {
+        "path": "skills/story-write/SKILL.md",
+        "sha256": "9d139969eec3c2f9acf03bc6ac0d8f2949d59de70e2c6cf3c094fe2966ddbe2c"
+      }
+    ],
+    "sources": [
+      {
+        "path": "research/materials.md",
+        "sha256": "ed57a6f01e1f95e542d906da4c6edf905af13897e5fbd4c582c8925fb664668d"
+      }
+    ]
+  },
+  "workJudgment": {
+    "attention": "s001建立女儿扫商品、爸爸接袋的配合；s002将关注缩小到两颗怕压的桃子。",
+    "progression": "桃子先被抱着，最后放到袋顶；父亲托底、女儿攥口把结账时的协作延续到出门。",
+    "payoff": "接到的是父女一起顾着两颗桃子的轻小生活细节，正文没有用成长、教育或温情总结代替动作。",
+    "assessment": "篇幅和观察规模相称，动作可跟随，关系通过配合可辨；成立为平静观察。内容分量较轻，不能据此宣称强吸引力或套件已普遍解决平淡问题。"
+  },
+  "factJudgment": "s001明确虚构。人物、对白、动作均在授权虚构范围，没有现实商家、新闻或家庭教育结论。outline与materials一致。",
+  "issues": [],
+  "unresolved": [],
+  "limitations": [
+    "只判断当前正文适合进入制作，不证明表演、画面、实际时长或用户接受。",
+    "20–30秒只是作者估计，未配音实测。",
+    "这是作者自选新题材，不是用户认可的题材或范文。"
+  ],
+  "downstream": "可以进入声画设计与制作；实际声画效果需另审。"
+}

@@ -1,0 +1,229 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "timeStatus": "measured-audio",
+  "units": [
+    {
+      "id": "unit-01",
+      "sentenceIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "newInformation": "渡口关闭后队伍改走上游，并重新组织过河",
+      "visualRole": "展示障碍、决策和抵达新渡点的完整结果"
+    },
+    {
+      "id": "unit-02",
+      "sentenceIds": [
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011"
+      ],
+      "newInformation": "两队绕过河湾向营地接近，地图只表达虚构移动",
+      "visualRole": "区分两队、路线和终点，并保留示意边界"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "unitId": "unit-01",
+      "startState": "队伍沿河赶往旧渡口",
+      "change": "发现渡口封闭并改选上游渡点",
+      "endState": "队伍抵达新的过河点",
+      "syncIntent": "与s002的“渡口封闭”和s004的“改走”同步揭示",
+      "scene": {
+        "type": "story",
+        "data": {
+          "title": "渡口关闭",
+          "context": "沿河赶路，改走上游",
+          "arrivalLabel": "新的渡点",
+          "demonstration": true
+        }
+      },
+      "startFrame": 0,
+      "durationFrames": 1138
+    },
+    {
+      "id": "shot-02",
+      "unitId": "unit-02",
+      "startState": "东、西两队分处河流两岸",
+      "change": "各自沿路线绕过河湾并向营地移动",
+      "endState": "两队在营地附近汇合，随后清点人员和补给",
+      "syncIntent": "s006后先区分两队，再跟随路线推进；结论不超出示意动画",
+      "scene": {
+        "type": "battle",
+        "data": {
+          "title": "两路接近营地",
+          "evidenceStatus": "demonstration",
+          "factions": [
+            {
+              "id": "east",
+              "name": "东队",
+              "color": "#a65042"
+            },
+            {
+              "id": "west",
+              "name": "西队",
+              "color": "#416b9a"
+            }
+          ],
+          "terrain": [
+            {
+              "kind": "river",
+              "points": [
+                [
+                  640,
+                  160
+                ],
+                [
+                  620,
+                  300
+                ],
+                [
+                  650,
+                  520
+                ]
+              ],
+              "width": 26
+            }
+          ],
+          "places": [
+            {
+              "id": "camp",
+              "name": "营地",
+              "x": 650,
+              "y": 600
+            }
+          ],
+          "routes": [
+            {
+              "id": "route-east",
+              "points": [
+                [
+                  1030,
+                  240
+                ],
+                [
+                  850,
+                  330
+                ],
+                [
+                  680,
+                  530
+                ]
+              ]
+            },
+            {
+              "id": "route-west",
+              "points": [
+                [
+                  230,
+                  230
+                ],
+                [
+                  400,
+                  340
+                ],
+                [
+                  620,
+                  530
+                ]
+              ]
+            }
+          ],
+          "armies": [
+            {
+              "id": "army-east",
+              "name": "东队",
+              "factionId": "east",
+              "routeId": "route-east"
+            },
+            {
+              "id": "army-west",
+              "name": "西队",
+              "factionId": "west",
+              "routeId": "route-west"
+            }
+          ]
+        }
+      },
+      "startFrame": 1138,
+      "durationFrames": 1418
+    }
+  ],
+  "audioPlacements": [
+    {
+      "audioId": "s001",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 9.216009,
+      "timelineStartFrame": 0
+    },
+    {
+      "audioId": "s002",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.44,
+      "timelineStartFrame": 282
+    },
+    {
+      "audioId": "s003",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.264014,
+      "timelineStartFrame": 511
+    },
+    {
+      "audioId": "s004",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.224014,
+      "timelineStartFrame": 705
+    },
+    {
+      "audioId": "s005",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 6.816009,
+      "timelineStartFrame": 928
+    },
+    {
+      "audioId": "s006",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 5.472018,
+      "timelineStartFrame": 1138
+    },
+    {
+      "audioId": "s007",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.08,
+      "timelineStartFrame": 1308
+    },
+    {
+      "audioId": "s008",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 9.216009,
+      "timelineStartFrame": 1526
+    },
+    {
+      "audioId": "s009",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.248005,
+      "timelineStartFrame": 1808
+    },
+    {
+      "audioId": "s010",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 7.656009,
+      "timelineStartFrame": 2031
+    },
+    {
+      "audioId": "s011",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 9.624014,
+      "timelineStartFrame": 2267
+    }
+  ]
+}

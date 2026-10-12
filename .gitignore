@@ -1,0 +1,28 @@
+# Local provider configuration; never commit credentials.
+.env.local
+story-studio/.env.local
+
+# Local environment and editor/OS files.
+.env
+.env.*
+!.env.example
+!.env.*.example
+.DS_Store
+
+# Dependencies and generated runtime entries.
+node_modules/
+/story-studio/runtime/remotion/.generated/
+
+# Rendered outputs, extracted frames, copied public assets and render receipts.
+# Keep episode scripts, reviews, shot definitions and source assets versioned.
+/story-studio/examples/**/output/
+/story-studio/episodes/**/output/
+
+# Generated voice files and provider cache; retain timing/planning JSON.
+/story-studio/examples/**/audio/**/*.wav
+/story-studio/examples/**/audio/**/*.wav.cache.json
+/story-studio/episodes/**/audio/**/*.wav
+/story-studio/episodes/**/audio/**/*.wav.cache.json
+
+# Generated animation comparison sheets (source artwork in assets/ stays visible).
+/story-studio/examples/**/animations/contact-sheet*.png

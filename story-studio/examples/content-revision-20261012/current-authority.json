@@ -1,0 +1,164 @@
+{
+  "inspectedAt": "2026-10-12T11:39:35.494Z",
+  "scope": "只读文件/依据状态检查；旧规则审核为历史，用户已否定01/04；不判断作品效果",
+  "cases": [
+    {
+      "case": "01-cinema-satire",
+      "script": {
+        "status": "parsed",
+        "contentSha256": "733577d1fcedc3a6f17f6e9ea0dafe4f6e5b68081123ad4a0776432c8620d740",
+        "deliverySha256": "98b9bf07a9300769135aca7aa87f8c9ecbc3d61be53daac69ce254095a404795",
+        "sentences": 11
+      },
+      "review": {
+        "status": "invalid",
+        "reason": "review basis does not match current inputs"
+      },
+      "audio": {
+        "status": "current-files",
+        "sources": 11,
+        "coveredSentences": 11,
+        "totalSentences": 11,
+        "precision": "word",
+        "listening": "not-checked"
+      },
+      "visual": {
+        "status": "static-valid",
+        "frames": 1747,
+        "fps": 30,
+        "prepared": "current-source-digests"
+      },
+      "output": {
+        "mp4": "present",
+        "playback": "completed-manual-current-output",
+        "source": "matches-current-inputs"
+      },
+      "userFeedback": "negative-content-feedback-received"
+    },
+    {
+      "case": "02-cinema-plain",
+      "script": {
+        "status": "parsed",
+        "contentSha256": "9bf5d8e25ddbc1ed7633fa619f7958a1c29d68d4cc64ee40654975ca1ab74b3e",
+        "deliverySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "sentences": 10
+      },
+      "review": {
+        "status": "invalid",
+        "reason": "review basis does not match current inputs"
+      },
+      "audio": {
+        "status": "missing"
+      },
+      "visual": {
+        "status": "missing"
+      },
+      "output": {
+        "mp4": "missing",
+        "playback": "unverified"
+      }
+    },
+    {
+      "case": "03-hongmen-history",
+      "script": {
+        "status": "parsed",
+        "contentSha256": "839ae7519548baab33d1c024a02b0f1b4ee6c179768337068040af96bb45fdbf",
+        "deliverySha256": "eb50bd1ac6c17c94becb7a23a3a5446f86705b3d8d045009b88886b14d012157",
+        "sentences": 17
+      },
+      "review": {
+        "status": "invalid",
+        "reason": "review basis does not match current inputs"
+      },
+      "audio": {
+        "status": "missing"
+      },
+      "visual": {
+        "status": "missing"
+      },
+      "output": {
+        "mp4": "missing",
+        "playback": "unverified"
+      }
+    },
+    {
+      "case": "04-song-restaurant",
+      "script": {
+        "status": "parsed",
+        "contentSha256": "91edb018bbbdebe5b5d4c21192f7d6ad17786ea300d90a87db55b207fceb9fe6",
+        "deliverySha256": "5969dcb0317be8630fdfe612ab95795d1afbf5afb4099d3a410eb12d3e03b3cf",
+        "sentences": 10
+      },
+      "review": {
+        "status": "invalid",
+        "reason": "review basis does not match current inputs"
+      },
+      "audio": {
+        "status": "current-files",
+        "sources": 10,
+        "coveredSentences": 10,
+        "totalSentences": 10,
+        "precision": "word",
+        "listening": "not-checked"
+      },
+      "visual": {
+        "status": "static-valid",
+        "frames": 2014,
+        "fps": 30,
+        "prepared": "current-source-digests"
+      },
+      "output": {
+        "mp4": "present",
+        "playback": "completed-manual-current-output",
+        "source": "matches-current-inputs"
+      },
+      "userFeedback": "negative-content-feedback-received"
+    },
+    {
+      "case": "05-hongmen-satire",
+      "script": {
+        "status": "parsed",
+        "contentSha256": "59a8e98e03ccedf4176eaf51de77217c9848788d9cdbfce3949cc657b29c0ff2",
+        "deliverySha256": "8892117f7b0fecdb6ed1c999dd140af16909eb8deb9a4226656e25ead4da3285",
+        "sentences": 14
+      },
+      "review": {
+        "status": "invalid",
+        "reason": "review basis does not match current inputs"
+      },
+      "audio": {
+        "status": "missing"
+      },
+      "visual": {
+        "status": "missing"
+      },
+      "output": {
+        "mp4": "missing",
+        "playback": "unverified"
+      }
+    },
+    {
+      "case": "06-queue-mechanism",
+      "script": {
+        "status": "parsed",
+        "contentSha256": "f83d1334d5d546321dc1d609bcc33e82bf9ee032348957cefe2fb323e350cf35",
+        "deliverySha256": "c40aa84e8b8699c7decc7d21fc6b40b9f72888bec3e024653abdebc2d53c11da",
+        "sentences": 11
+      },
+      "review": {
+        "status": "invalid",
+        "reason": "review basis does not match current inputs"
+      },
+      "audio": {
+        "status": "missing"
+      },
+      "visual": {
+        "status": "missing"
+      },
+      "output": {
+        "mp4": "missing",
+        "playback": "unverified"
+      }
+    }
+  ]
+}

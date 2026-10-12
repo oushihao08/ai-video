@@ -1,0 +1,120 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "timeStatus": "measured",
+  "units": [
+    {
+      "id": "u01",
+      "sentenceIds": [
+        "s001"
+      ],
+      "newInformation": "一块印刷时，另一块已布字；前一块刚毕，后一块已具。",
+      "visualRole": "微缩片场：两板交接的镜头关系"
+    },
+    {
+      "id": "u02",
+      "sentenceIds": [
+        "s002"
+      ],
+      "newInformation": "胶泥刻成的字印烧硬后排入铁框。",
+      "visualRole": "微缩片场：字块逐个出现并进入铁框"
+    },
+    {
+      "id": "u03",
+      "sentenceIds": [
+        "s003"
+      ],
+      "newInformation": "少量印刷不一定省事；印量大时，原文评价极快。",
+      "visualRole": "微缩片场：纸页数量逐渐增加"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "unitId": "u01",
+      "intent": "把两板交替变成一次可见的手上接力",
+      "startState": "两块铁板同框：一边刚压印，一边已有排好的字块",
+      "change": "镜头从已排好字的铁框移动到纸面，再回到两板接力",
+      "endState": "印刷与布字同时可见，动作停在交接完成",
+      "syncIntent": "按 s001 的“刚印完”“另一块”“已经排好字”真实词时推动镜头与动作线完成交接。",
+      "sourceRef": "research/materials.md",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "MiniatureRelay",
+          "stage": 1,
+          "keyframeFile": "miniature-workbench-keyframe.png",
+          "keyframeSha256": "bed8afd9eaf4f0002146e943eb230236e90cc04d2ba8625d114eb0e900542b1d",
+          "visualMode": "demonstration"
+        }
+      },
+      "startFrame": 0,
+      "durationFrames": 103
+    },
+    {
+      "id": "shot-02",
+      "unitId": "u02",
+      "intent": "让泥字的逐字组装接住口播里的制作步骤",
+      "startState": "镜头靠近第二块铁框，泥字块尚未落稳",
+      "change": "按口播词时逐块落位，轮廓从散到齐",
+      "endState": "小字印进入稳定铁框，不出现虚构字形或工艺说明卡",
+      "syncIntent": "按 s002 的“每个字”“胶泥”“烧硬”“铁框”真实词时触发逐块显形与落位。",
+      "sourceRef": "research/materials.md",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "MiniatureRelay",
+          "stage": 2,
+          "keyframeFile": "miniature-workbench-keyframe.png",
+          "keyframeSha256": "bed8afd9eaf4f0002146e943eb230236e90cc04d2ba8625d114eb0e900542b1d",
+          "visualMode": "demonstration"
+        }
+      },
+      "startFrame": 103,
+      "durationFrames": 264
+    },
+    {
+      "id": "shot-03",
+      "unitId": "u03",
+      "intent": "用纸张由少到多的动作呈现原文对印量与效率的判断",
+      "startState": "纸页与工作台处于近景",
+      "change": "说到印得多时，纸张层层滑出并压成一摞",
+      "endState": "纸叠停在画面里，数量感表达印量增多，不表示文献记录的具体本数",
+      "syncIntent": "按 s003 的“印得多”真实词时启动纸张/墨迹扩展；口播结束后留静场。",
+      "sourceRef": "research/materials.md",
+      "scene": {
+        "type": "custom",
+        "data": {
+          "key": "MiniatureRelay",
+          "stage": 3,
+          "keyframeFile": "miniature-workbench-keyframe.png",
+          "keyframeSha256": "bed8afd9eaf4f0002146e943eb230236e90cc04d2ba8625d114eb0e900542b1d",
+          "visualMode": "demonstration"
+        }
+      },
+      "startFrame": 367,
+      "durationFrames": 181
+    }
+  ],
+  "audioPlacements": [
+    {
+      "audioId": "s001",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 3.24,
+      "timelineStartFrame": 0
+    },
+    {
+      "audioId": "s002",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 8.64,
+      "timelineStartFrame": 103
+    },
+    {
+      "audioId": "s003",
+      "sourceInSeconds": 0,
+      "sourceOutSeconds": 5.232018,
+      "timelineStartFrame": 367
+    }
+  ]
+}
